@@ -1,13 +1,13 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 	<head>
-		<!--#include virtual="/includes/head.html" -->
+		<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.html'); ?>
 		<title>Преподаватель Андрей Яковлев</title>
 	</head>
 <body>
-<style type="text/css">#active-teachers {<!--#include virtual="/includes/active-menu.html" -->}</style>
+<style type="text/css">#active-teachers {<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/active-menu.html'); ?>}</style>
 <div class="wrapper">
-<!--#include virtual="/includes/header.html" -->
+<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/header.html'); ?>
 	<br><br>
 	<div class="grid">
 		<div id="regalia-main">
@@ -110,6 +110,9 @@
 
 <div class="footerPush"></div>
 </div>
-<!--#include virtual="/includes/footer.html" -->
+
+<!-- Футер -->
+<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/footer.html'); ?>
+
 </body>
 </html>
