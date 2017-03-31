@@ -1,0 +1,506 @@
+/*Шаблон*/
+html {height: 100%;}
+body {margin: 0px;	padding: 0px; color: #1A1A1A; height: 100%; background-color: #f2f2f2; font-family: 'PT Sans'; font-size: 16px; line-height: 20px;}
+div {margin: 0;	padding: 0;}
+p {margin: 0; padding: 5px 0 15px 0;}
+.wrapper {min-height: 100%;	height: auto !important;	height: 100%;	margin: 0 0 -240px 0; padding: 0;}
+.footerPush {height: 240px;	margin: 0;	padding: 0;	clear: both;}
+.clean {clear: both;}
+.fleft {float: left;}
+.fright {float: right;}
+.grid {width: 999px; margin: 0 auto 0 auto;}
+@font-face {
+	font-family: 'Intro Black';
+	src: url(/site-files/intro.ttf);
+}
+/*EOF Шаблон*/
+
+/*Шапка*/
+#header {
+	width: 999px;
+	height: 360px;
+	margin: 0 auto 0 auto;
+	background-color: gray;
+	background-image: url(header-image.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	font-size: 17px;
+}
+
+#header #call-us {
+	width: 284px;
+	background-image: url(header-call-us-bg.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	float: right;
+	text-align: left;
+	padding: 16px 0 31px 0;
+	margin: 0 70px 0 0;
+}
+
+#header #call-us span {
+	padding: 0 0 0 20px;
+}
+
+.phone {
+	display: inline-block;
+	width: 15px;
+	height: 14px;
+	margin: 0 0 0 60px;
+	background-image: url(header-call-us-icon.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+#logo {
+	width: 201px;
+	height: 176px;
+	margin: 0 auto 0 auto;
+	padding: 30px 0 50px 0;
+	background-image: url(logo.png);
+	background-repeat: no-repeat;
+	background-position: left center;	
+}
+
+#main-menu {
+	width: 940px;
+	margin: 0 auto 0 auto;
+}
+
+#main-menu div {
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+
+#main-menu a{
+	color: white;
+	text-decoration: none;
+	padding: 5px 10px;
+	-webkit-transition: background-color ease-in 0.2s;
+	-moz-transition: background-color ease-in 0.2s;
+	-o-transition: background-color ease-in 0.2s;
+	transition: background-color ease-in 0.2s;
+	border-radius: 4px;
+}
+
+#main-menu a:hover {
+	background-color: white;
+	color: black;
+	border-radius: 4px;
+}
+/*EOF Шапка*/
+
+/*Футер*/
+#footer {
+	width: 100%;
+	height: 240px;
+	background-color: black;
+	color: white;
+}
+
+#footer #menu {
+	width: 999px;
+	margin: 0 auto 0 auto;
+	padding: 40px 0 80px 0;
+}
+
+#footer #menu div {
+	width: 20%;
+	float: left;
+	text-align: center;
+}
+
+#footer #menu a {
+	color: white;
+	text-decoration: none;
+	padding: 5px 10px;
+	-webkit-transition: background-color ease-in 0.2s;
+	-moz-transition: background-color ease-in 0.2s;
+	-o-transition: background-color ease-in 0.2s;
+	transition: background-color ease-in 0.2s;
+	border-radius: 4px;
+	font-size: 14px;
+}
+
+#footer #menu a:hover {
+	background-color: white;
+	color: black;
+	border-radius: 4px;
+}
+
+#footer-call-us {
+	font-size: 30px;
+	line-height: 34px;
+}
+
+#footer-call-us span {
+	padding: 0 0 0 20px;
+}
+
+#footer-phone {
+	display: inline-block;
+	width: 26px;
+	height: 25px;
+	background-image: url(footer-call-us-icon.png);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+#share {
+	width: 247px;
+}
+
+#vk {
+	width: 45px;
+	padding: 0 80px 0 0;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+#vk img {
+	margin: 0 0 10px 0;
+}
+
+#vk a {
+	color: white;
+	text-decoration: none;
+}
+
+/*EOF Футер*/
+
+/*Контент*/
+.intro-header-one {
+	display: inline-block;
+	font-family: 'Intro Black';
+	text-transform: uppercase;
+	font-size: 40px;
+	line-height: 40px;
+	color: white;
+	font-weight: bold;
+	background-color: #E50046;
+	padding: 16px;
+	margin: 0 0 -16px -16px;
+}
+
+.intro-header-two {
+	font-family: 'Intro Black';
+	text-transform: uppercase;
+	font-size: 21px;
+	line-height: 30px;
+	color: #42210B;
+	font-weight: bold;
+}
+
+.round {
+	border-radius: 10px;
+}
+/*EOF Контент*/
+
+/*Преподаватели*/
+.teachers-t-main {
+	width: 880px;
+	margin: 0 auto 0 auto;
+}
+
+.teachers-t-column {
+	float: left;
+	width: 244px;
+	padding: 0 74px 0 0;
+}
+
+a .teachers-t-column  {
+	color: black;
+}
+
+.teachers-t-name {
+	display: inline-block;
+	font-family: 'Intro Black';
+	text-transform: uppercase;
+	font-size: 26px;
+	line-height: 30px;
+	color: white;
+	font-weight: bold;
+	background-color: #E50046;
+	padding: 10px;
+	margin: 0 0 -10px 20px;
+	position: relative;
+	top: -50px;
+	-webkit-transition: background-color ease-in 0.2s;
+	-moz-transition: background-color ease-in 0.2s;
+	-o-transition: background-color ease-in 0.2s;
+	transition: background-color ease-in 0.2s;
+}
+
+.teachers-t-column:hover .teachers-t-name {
+	background-color: white;
+	color: black;
+}
+
+.teachers-t-who {
+	margin: -30px 0 0 0;
+	padding: 0 0 0 20px;
+}
+
+.little-teachers-t-column {
+	float: left;
+	width: 193px;
+	padding: 0 36px 0 0;
+}
+
+.little-teachers-t-name {
+	display: inline-block;
+	font-family: 'Intro Black';
+	text-transform: uppercase;
+	font-size: 20px;
+	line-height: 20px;
+	color: white;
+	font-weight: bold;
+	background-color: #E50046;
+	padding: 10px;
+	margin: 0 0 -10px 20px;
+	position: relative;
+	top: -50px;
+}
+/*EOF Преподаватели*/
+
+/*Анкета*/
+#regalia-main {
+	width: 294px;
+	margin: 0 50px 40px 0;
+	float: left;
+}
+
+#regalia-main span {
+	display: block;
+	font-family: 'Intro Black';
+	text-transform: uppercase;
+	padding: 0 0 20px 0;
+}
+
+.city {
+	width: 127px;
+	padding: 0 20px 40px	 0;
+	float: left;
+	font-size: 13px;
+}
+
+.city p {
+	display: block;
+	height: 25px;
+	margin: 0 0 10px 0;
+	padding: 0 0 10px 0;
+	background-image: url(triangle.png);
+	background-repeat: no-repeat;
+	background-position: 0 30px;
+}
+
+.teacher-video {
+	width: 294px;
+	height: 165px;
+}
+
+.teacher-video iframe {
+	border-radius: 10px;
+}
+
+.teacher-photo img {
+	border-radius: 10px;
+}
+
+.teacher-photo {
+	width: 400px;
+	padding: 0 40px 0 0;
+	float: left;
+}
+
+.teacher-name {
+	float: left;
+}
+
+.teacher-name span {
+	color: #42210B;
+	font-size: 41px;
+	font-family: 'Intro Black';
+	line-height: 46px;
+	text-transform: uppercase;
+}
+
+.motto {
+	position: relative;
+	width: 330px;
+	margin: 20px -330px 0 0;
+	right: 80px;
+}
+
+.motto span {
+	display: inline-block;
+	text-transform: none;
+	font-size: 28px;
+	line-height: 10px;
+	font-family: 'PT Sans';
+	background-color: #E50046;
+	color: white;
+	padding: 15px 10px;
+}
+/*EOF Анкета*/
+
+/*Расписание*/
+#s-main {
+	width: 999px;
+	height: 660px;
+	background-color: white;
+	margin: 40px auto 60px auto;
+	padding: 20px 0 20px 0;
+	border-radius: 10px;
+}
+
+#groups {
+	width: 165px;
+	float: left;
+	padding: 50px 0 0 20px;
+}
+
+#groups div {
+	width: 80px;
+	margin: 0 0 70px 0;
+	padding: 5px 0 5px 0;
+	text-align: center;
+	background-color: #E50046;
+	color: white;
+	font-weight: bold;
+}
+
+#groups .prepods {
+	width: 165px;
+	height: 40px;
+	margin: 0 0 -40px 0;
+	position: relative;
+	bottom: 65px;
+	padding: 0;
+	text-align: left;
+	font-size: 13px;
+	background: none;
+	color: #B6B6B7;
+	font-weight: normal;
+}
+
+.s-column {
+	width: 124px;
+	height: 634px;
+	border-left: 1px solid #B6B6B7;
+	float: left;
+}
+
+#last {
+	width: 62px;
+}
+
+.day-up {
+	width: 40px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: white;
+	position: relative;
+	right: 20px;
+	padding: 0 0 5px 0;
+}
+
+.day-down {
+	width: 40px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: white;
+	position: relative;
+	top: 609px;
+	right: 20px;
+	padding: 5px 0 0 0;
+}
+
+.s-time {
+	width: 124px;
+	text-align: center;
+	position: relative;
+	right: 62px;
+	background-color: white;
+	margin: 0 0 70px 0;
+	padding: 5px 0 5px 0;
+}
+
+.no-bg {
+	background: none;
+}
+
+.free {
+	margin: 220px 0 0 0;
+}
+
+#s-short {
+	width: 100%;
+	height: 80px;
+	padding: 0 0 20px 165px;
+	color: #B6B6B7;
+	font-size: 14px;
+}
+
+#s-short div {
+	float: left;
+	width: 368px;
+	padding: 0 40px 0 0;
+}
+
+#s-short div span {
+	display: block;
+	padding: 0 0 5px 0;
+	margin: 0 0 10px 0;
+	border-bottom: 1px solid #B6B6B7;
+}
+
+#s-short div div {
+	width: 33%;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+#subscribe {
+	display: block;
+	width: 200px;
+	margin: 80px 0 0 0;
+	padding: 10px 0 12px 0;
+	border-radius: 4px;
+	background-color: #E50046;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: background-color ease-in 0.2s;
+	-moz-transition: background-color ease-in 0.2s;
+	-o-transition: background-color ease-in 0.2s;
+	transition: background-color ease-in 0.2s;
+}
+
+#subscribe:hover {
+	background-color: white;
+	color: black;
+	font-weight: bold;
+}
+/*EOF Расписание*/
+
+/*Цены*/
+#price-cost-one {
+	position: relative;
+	top: -180px;
+	left: 410px;
+	margin: 0 0 -121px 0;
+}
+
+#price-cost-two {
+	position: relative;
+	top: -450px;
+	left: -60px;
+	margin: 0 0 -83px 0;
+}
+/*EOF Цены*/
+
