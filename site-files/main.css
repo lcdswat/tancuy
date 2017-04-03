@@ -534,3 +534,22 @@ a .teachers-t-column  {
 	border-radius: 10px;
 }
 /*EOF Отзывы*/
+
+/*Жизнь центра*/
+.center-life {
+
+}
+
+.center-life img {
+	border-radius: 10px;
+	-webkit-transition: box-shadow ease-out 0.2s;
+	-moz-transition: box-shadow ease-out 0.2s;
+	-o-transition: box-shadow ease-out 0.2s;
+	transition: box-shadow ease-out 0.2s;
+}
+
+.center-life img:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+/*EOF Жизнь центра*/
