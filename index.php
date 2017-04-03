@@ -3,7 +3,6 @@
 	<head>
 		<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.html'); ?>
 		<link rel="stylesheet" type="text/css" href="/site-files/slider.css">
-		<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 		<title>О центре</title>
 	</head>
 <body>
@@ -105,10 +104,32 @@ $('.arrow').click(function(){
 	</p><br/><br/>
 
 	<!-- Отзывы -->
-	<span class="intro-header-one">Отзывы</span><br><br><br>
+	<span class="intro-header-one">Отзывы</span><br><br><br><br>
+	
+	<a data-fancybox class="review" href="https://www.youtube.com/watch?v=6KRYBF7Yuf8">
+  		<img src="/images/review-aynaz-t.jpg">
+  		<span>Айназ Мухамедьяров, <i>6 лет</i>.</span>
+	</a>
+	
+	<a data-fancybox class="review" href="https://www.youtube.com/watch?v=XpEpHL802iw">
+  		<img src="/images/review-amin-t.jpg">
+  		<span>Амин Аминов, <i>5 лет</i>.</span>
+	</a>
+	
+	<a data-fancybox class="review" href="https://www.youtube.com/watch?v=AxTGb6hR7JQ">
+  		<img src="/images/review-safiullin-t.jpg">
+  		<span>Сафиуллин Роберт, <i>10 лет</i>.</span>
+	</a>
+
+	<a data-fancybox class="review" href="https://www.youtube.com/watch?v=8tQQ9Kcia4g">
+  		<img src="/images/review-syrchin-t.jpg">
+  		<span>Сырчин Илья, <i>9 лет</i>.</span>
+	</a>
+	
+	<div class="clean"></div><br><br><br>
 
 	<!-- Частые вопросы -->
-	<span class="intro-header-one">Частые вопросы</span><br><br><br>
+	<span class="intro-header-one">Частые вопросы</span><br><br><br><br>
 	<span class="intro-header-two">КАК ПРОХОДИТ АТТЕСТАЦИЯ В&nbsp;ВАШЕМ ЦЕНТРЕ?</span>
 	<p>
 		Хороший вопрос!) Наша аттестация проходит в&nbsp;виде брейк-данс баттла. Этот танец зародился на&nbsp;улицах США, и&nbsp;молодые ребята всегда соревновались в&nbsp;своём мастерстве ,чтобы выяснить, чей стиль танца круче. Брейк-данс дал им&nbsp;свободу и&nbsp;веру в&nbsp;свои силы.<br>
@@ -171,7 +192,7 @@ $('.arrow').click(function(){
 	<span class="intro-header-two">А КАК МНОГО ЗАНИМАЕТСЯ У ВАС ДЕВУШЕК И СКОЛЬКО ЮНОШЕЙ?</span>
 	<p>
 		Если смотреть в&nbsp;процентном соотношении то&nbsp;70%&nbsp;&mdash; мальчики, 30%&nbsp;&mdash; девочки. С&nbsp;каждым годом девочек становится все больше.
-	<br><br>
+	<br><br><br><br>
 	</p>
 
 	<!-- История -->
@@ -202,6 +223,12 @@ $('.arrow').click(function(){
 
 <!-- Футер -->
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/footer.html'); ?>
+
+<script type="text/javascript">
+	$("[data-fancybox]").fancybox({
+		// Options will go here
+	});
+</script>
 
 </body>
 </html>
