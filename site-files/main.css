@@ -131,6 +131,7 @@ p {margin: 0; padding: 5px 0 15px 0;}
 #footer-call-us {
 	font-size: 30px;
 	line-height: 34px;
+	padding: 0 0 0 130px;
 }
 
 #footer-call-us span {
@@ -150,18 +151,18 @@ p {margin: 0; padding: 5px 0 15px 0;}
 	width: 247px;
 }
 
-#vk {
+.social {
 	width: 45px;
-	padding: 0 80px 0 0;
+	padding: 0 20px 0 0;
 	font-size: 12px;
 	line-height: 14px;
 }
 
-#vk img {
+.social img {
 	margin: 0 0 10px 0;
 }
 
-#vk a {
+.social a {
 	color: white;
 	text-decoration: none;
 }

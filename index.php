@@ -80,7 +80,7 @@ $('.arrow').click(function(){
 </div>
 
 <div class="grid" style="width: 810px;">
-    <span class="intro-header-one">Плюсы нашего центра</span><br/><br/><br/>
+    <span class="intro-header-one">Плюсы</span><br><span class="intro-header-one">нашего центра</span><br/><br/><br/>
 	<p>&mdash;&nbsp;Зимнее и&nbsp;весеннее шоу от&nbsp;учеников, а&nbsp;также аттестация кураторами центра&nbsp;&mdash; чемпионов мира по&nbsp;брейк-дансу</p>
 	<p>&mdash;&nbsp;Hегулярные съемки учеников центра в&nbsp;передаче &laquo;Танцуй&raquo; на&nbsp;&laquo;Городском телеканале UTV&raquo;</p>
 	<p>&mdash;&nbsp;Регулярные бесплатные открытые уроки с&nbsp;профессионалами творческой сферы(музыканты, танцоры, актеры, художники)</p>
@@ -122,7 +122,7 @@ $('.arrow').click(function(){
 	<div class="clean"></div><br><br><br>
 
 	<!-- Частые вопросы -->
-	<span class="intro-header-one">Частые вопросы</span><br><br><br><br>
+	<span class="intro-header-one">Частые</span><br><span class="intro-header-one">вопросы</span><br><br><br>
 	<span class="intro-header-two">КАК ПРОХОДИТ АТТЕСТАЦИЯ В&nbsp;ВАШЕМ ЦЕНТРЕ?</span>
 	<p>
 		Хороший вопрос!) Наша аттестация проходит в&nbsp;виде брейк-данс баттла. Этот танец зародился на&nbsp;улицах США, и&nbsp;молодые ребята всегда соревновались в&nbsp;своём мастерстве ,чтобы выяснить, чей стиль танца круче. Брейк-данс дал им&nbsp;свободу и&nbsp;веру в&nbsp;свои силы.<br>
