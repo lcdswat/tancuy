@@ -29,27 +29,34 @@ p {margin: 0; padding: 5px 0 15px 0;}
 
 #header #call-us {
 	width: 284px;
+	height: 48px;
 	background-image: url(header-call-us-bg.png);
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: center top;
 	float: right;
 	text-align: left;
-	padding: 16px 0 31px 0;
+	padding: 8px 0 31px 0;
 	margin: 0 70px 0 0;
 }
 
 #header #call-us span {
-	padding: 0 0 0 20px;
+	padding: 0 0 0 10px;
+}
+
+#header #call-us a {
+	color: #E50046;
 }
 
 .phone {
 	display: inline-block;
-	width: 15px;
-	height: 14px;
+	width: 22px;
+	height: 22px;
 	margin: 0 0 0 60px;
-	background-image: url(header-call-us-icon.png);
+	background-image: url(whatsapp.svg);
 	background-repeat: no-repeat;
 	background-position: left center;
+	position: relative;
+	top: 5px;
 }
 
 #logo {
