@@ -27,10 +27,6 @@
 </div>
 
 <script type="text/javascript">
-
-</script>
-
-<script type="text/javascript">
  var index = 0;
 function setIndex(i) {
  index = +i;
@@ -205,7 +201,7 @@ $('.arrow').click(function(){
 	<p>
 		Создать благоприятные условия для детей, подростков и&nbsp;молодежи, обучить и&nbsp;вдохновить их&nbsp;через танцевальное искусство&nbsp;&mdash; в&nbsp;будущем именно они изменят нашу страну к&nbsp;лучшему, сделают её&nbsp;сильной и&nbsp;творческой.
 	</p>
-    <p>Центр по брейк-дансу «Танцуй, не комплексуй» ждет тебя на своих занятиях. Возраст, пол и физическая подготовка не имеют значения. Звони! Пиши! Прибегай))) <span style="font-weight:bold;color:#E50046; font-size: 18px;">(347) 266-56-14</span>
+    <p>Центр по брейк-дансу «Танцуй, не комплексуй» ждет тебя на своих занятиях. Возраст, пол и физическая подготовка не имеют значения. Звони! Пиши! Прибегай)))
     <br><br><br><br>
     </p>
 </div>
@@ -219,7 +215,6 @@ $('.arrow').click(function(){
 
 <script type="text/javascript">
 	$("[data-fancybox]").fancybox({
-		// Options will go here
 	});
 </script>
 
