@@ -33,7 +33,7 @@
 		<div>Группа 7</div>
 		<div class="prepods">Преподаватель Александр,<br>возраст с 7 до 13 лет</div>
 		<div>Группа 8</div>
-		<div class="prepods">Преподаватель Александр,<br>возраст с 4 до 16 лет</div>
+		<div class="prepods">Преподаватель Александр,<br>возраст с 4 до 6 лет</div>
 	</div>
 	<div class="s-column"><div class="day-up">пн</div><div class="day-down">пн</div>
 		<div class="s-time no-bg">&nbsp;</div>
