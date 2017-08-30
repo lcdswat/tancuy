@@ -387,6 +387,11 @@ a .teachers-t-column  {
 	text-transform: uppercase;
 }
 
+#markel span {
+	font-size: 40px;
+	margin: 0 -40px 0 0;
+}
+
 .motto {
 	position: relative;
 	width: 330px;
@@ -409,10 +414,9 @@ a .teachers-t-column  {
 /*Расписание*/
 #s-main {
 	width: 999px;
-	height: 660px;
 	background-color: white;
 	margin: 40px auto 60px auto;
-	padding: 20px 0 20px 0;
+	padding: 20px 0 40px 0;
 	border-radius: 10px;
 }
 
@@ -448,7 +452,7 @@ a .teachers-t-column  {
 
 .s-column {
 	width: 124px;
-	height: 634px;
+	height: 835px;
 	border-left: 1px solid #B6B6B7;
 	float: left;
 }
@@ -475,7 +479,7 @@ a .teachers-t-column  {
 	font-weight: bold;
 	background-color: white;
 	position: relative;
-	top: 609px;
+	top: 810px;
 	right: 20px;
 	padding: 5px 0 0 0;
 }
@@ -495,7 +499,7 @@ a .teachers-t-column  {
 }
 
 .free {
-	margin: 220px 0 0 0;
+	margin: 330px 0 0 0;
 }
 
 #s-short {

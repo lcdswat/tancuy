@@ -30,13 +30,28 @@
 		<div class="prepods">Преподаватель Арсен,<br>возраст с 7 до 13 лет</div>
 		<div>Группа 6</div>
 		<div class="prepods">Преподаватель Арсен,<br>возраст с 7 до 13 лет</div>
+		<div>Группа 7</div>
+		<div class="prepods">Преподаватель Александр,<br>возраст с 7 до 13 лет</div>
+		<div>Группа 8</div>
+		<div class="prepods">Преподаватель Александр,<br>возраст с 4 до 16 лет</div>
 	</div>
-	<div class="s-column"><div class="day-up">пн</div><div class="day-down">пн</div></div>
+	<div class="s-column"><div class="day-up">пн</div><div class="day-down">пн</div>
+		<div class="s-time no-bg">&nbsp;</div>
+		<div class="s-time no-bg">&nbsp;</div>
+		<div class="s-time no-bg">&nbsp;</div>
+		<div class="s-time no-bg">&nbsp;</div>
+		<div class="s-time no-bg">&nbsp;</div>
+		<div class="s-time no-bg">&nbsp;</div>
+		<div class="s-time no-bg">&nbsp;</div>
+		<div class="s-time no-bg">&nbsp;</div>
+	</div>
 	<div class="s-column"><div class="day-up">вт</div><div class="day-down">вт</div>
 		<div class="s-time">16:00—17:30</div>
 		<div class="s-time">17:30—18:30</div>
 		<div class="s-time">18:30—19:30</div>
 		<div class="s-time">19:30—21:00</div>
+		<div class="s-time no-bg">&nbsp;</div>
+		<div class="s-time no-bg">&nbsp;</div>
 		<div class="s-time no-bg">&nbsp;</div>
 		<div class="s-time no-bg">&nbsp;</div>
 	</div>
@@ -47,12 +62,16 @@
 		<div class="s-time no-bg">&nbsp;</div>
 		<div class="s-time">19:00—20:30</div>
 		<div class="s-time">20:30—22:00</div>
+		<div class="s-time">15:45—17:15</div>
+		<div class="s-time">17:15—18:15</div>
 	</div>
 	<div class="s-column"><div class="day-up">чт</div><div class="day-down">чт</div>
 		<div class="s-time">16:00—17:30</div>
 		<div class="s-time">17:30—18:30</div>
 		<div class="s-time">18:30—19:30</div>
 		<div class="s-time">19:30—21:00</div>
+		<div class="s-time no-bg">&nbsp;</div>
+		<div class="s-time no-bg">&nbsp;</div>
 		<div class="s-time no-bg">&nbsp;</div>
 		<div class="s-time no-bg">&nbsp;</div>
 	</div>
@@ -63,8 +82,12 @@
 		<div class="s-time no-bg">&nbsp;</div>
 		<div class="s-time">19:00—20:30</div>
 		<div class="s-time">20:30—22:00</div>
+		<div class="s-time">15:45—17:15</div>
+		<div class="s-time">17:15—18:15</div>
 	</div>
 	<div class="s-column"><div class="day-up">сб</div><div class="day-down">сб</div>
+		<div class="s-time no-bg">&nbsp;</div>
+		<div class="s-time no-bg">&nbsp;</div>
 		<div class="s-time no-bg">&nbsp;</div>
 		<div class="s-time no-bg">&nbsp;</div>
 		<div class="s-time no-bg">&nbsp;</div>
@@ -75,6 +98,7 @@
 	<div class="s-column"id="last"><div class="day-up">вс</div><div class="day-down">вс</div>
 		<div class="s-time free">Открытый урок<br>11:30—13:00</div>
 	</div>
+	<div class="clean"></div>
 </div>
 
 <div class="footerPush"></div>
