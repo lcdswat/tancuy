@@ -452,7 +452,7 @@ a .teachers-t-column  {
 
 .s-column {
 	width: 124px;
-	height: 835px;
+	height: 950px;
 	border-left: 1px solid #B6B6B7;
 	float: left;
 }
@@ -479,7 +479,7 @@ a .teachers-t-column  {
 	font-weight: bold;
 	background-color: white;
 	position: relative;
-	top: 810px;
+	top: 910px;
 	right: 20px;
 	padding: 5px 0 0 0;
 }
@@ -499,7 +499,7 @@ a .teachers-t-column  {
 }
 
 .free {
-	margin: 330px 0 0 0;
+	margin: 420px 0 0 0;
 }
 
 #s-short {
