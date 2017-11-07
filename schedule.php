@@ -72,8 +72,8 @@
 		<div class="s-time no-bg">&nbsp;</div>
 		<div class="s-time no-bg">&nbsp;</div>
 		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time">15:45—17:15</div>
-		<div class="s-time">17:15—18:15</div>
+		<div class="s-time">15:30—17:00</div>
+		<div class="s-time">17:00—18:00</div>
 		<div class="s-time">19:00—20:30</div>
 		<div class="s-time">20:30—22:00</div>
 	</div>
@@ -94,8 +94,8 @@
 		<div class="s-time no-bg">&nbsp;</div>
 		<div class="s-time no-bg">&nbsp;</div>
 		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time">15:45—17:15</div>
-		<div class="s-time">17:15—18:15</div>
+		<div class="s-time">15:30—17:00</div>
+		<div class="s-time">17:00—18:00</div>
 		<div class="s-time">19:00—20:30</div>
 		<div class="s-time">20:30—22:00</div>
 	</div>
