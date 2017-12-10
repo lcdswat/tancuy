@@ -362,7 +362,7 @@ a .teachers-t-column  {
 }
 
 .teacher-video iframe {
-	border-radius: 10px;
+	border-radius: 0px;
 }
 
 .teacher-photo img {

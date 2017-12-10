@@ -55,8 +55,11 @@
 			<div class="clean"></div>
 			Видео с Артуром<br><br>
 			<div class="teacher-video">
-				<iframe width="294" height="165" src="https://www.youtube.com/embed/c0aR7a-PPAw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+				<iframe width="294" height="165" src="https://www.youtube.com/embed/c0aR7a-PPAw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe><br><br>
 			</div>
+			<br><br>
+			Сайт Артура Хабирова<br>
+			<a href="http://arturkhabirov.com/">arturkhabirov.com</a>
 			<div class="clean"></div>
 		</div>
 
@@ -74,7 +77,14 @@
 
 			Воспитал не&nbsp;одно поколение учеников в&nbsp;Уфе, которое успешно развивается и&nbsp;добивается отличных<br>результатов в&nbsp;брейкинг культуре.<br><br>
 
-			В&nbsp;своем преподавании Артур делает упор на&nbsp;всестороннее развитие личности и&nbsp;помогает ученику раскрыть свой танцевальный потенциал.<br><br><br><br><br><br><br><br><br><br>
+			В&nbsp;своем преподавании Артур делает упор на&nbsp;всестороннее развитие личности и&nbsp;помогает ученику раскрыть свой танцевальный потенциал.<br><br>
+
+			Участник проекта «Танцы» на Телеканале ТНТ, 4 сезон.<br><br><br>
+
+			<iframe width="440" height="247" src="//rutube.ru/play/embed/10627261?sTitle=false&sAuthor=false" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
+
+
+			<br><br><br><br>
 		</div>
 
 		<div class="teacher-name">
