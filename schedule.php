@@ -17,9 +17,8 @@
 </div>
 
 <div class="grid" style="font-size: 22px; line-height: 30px; margin: 40px auto 0 auto;">
-	<b>Идёт набор:</b><br>
-	— в группы 6 и 7 к преподавателю <a href="/teachers/aleks-markelov">Александру Маркелову</a>;<br>
-	— в группу 5 к преподавателю <a href="/teachers/artur-habirov">Артуру Хабирову</a>.<br><br>
+	<b>Идёт набор во все группы</b><br>
+	Количество мест ограничено<br>
 	Подробности по телефону (347) 266-56-14
 	</div>
 
@@ -34,9 +33,9 @@
 		<div>Группа 4</div>
 		<div class="prepods">Преподаватель Андрей,<br>возраст с 7 до 13 лет</div>
 		<div>Группа 5</div>
-		<div class="prepods">Преподаватель Артур,<br>возраст с 15 лет</div>
+		<div class="prepods">Преподаватель Артур,<br>возраст с 14 лет</div>
 		<div>Группа 6</div>
-		<div class="prepods">Преподаватель Александр,<br>возраст с 7 до 13 лет</div>
+		<div class="prepods">Преподаватель Артур,<br>возраст с 7 до 13 лет</div>
 		<div>Группа 7</div>
 		<div class="prepods">Преподаватель Александр,<br>возраст с 4 до 6 лет</div>
 		<div>Группа 8</div>
@@ -111,7 +110,7 @@
 		<div class="s-time no-bg">&nbsp;</div>
 	</div>
 	<div class="s-column"id="last"><div class="day-up">вс</div><div class="day-down">вс</div>
-		<div class="s-time free">Открытый урок<br>11:30—13:00</div>
+		<div class="s-time free">Открытый урок<br>12:30—14:00</div>
 	</div>
 	<div class="clean"></div>
 </div>

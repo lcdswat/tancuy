@@ -87,7 +87,7 @@
 			<b>Видео с Андреем</b><br><br>
 
 			<div class="teacher-video">
-				<iframe src="https://player.vimeo.com/video/109309095?color=ffffff&title=0&byline=0&portrait=0" width="440" height="247" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<iframe width="440" height="247" src="https://www.youtube.com/embed/35w0d7x2Mys?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			</div>
 
 			<br><br><br><br>

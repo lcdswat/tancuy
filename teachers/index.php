@@ -29,7 +29,7 @@
 		<a href="/teachers/aleks-markelov"><div class="teachers-t-column" style="padding: 0;">
 			<img src="/images/aleks-markelov-t.jpg" class="round">
 			<span class="teachers-t-name">Александр</span><span class="teachers-t-name">Маркелов</span>
-			<div class="teachers-t-who">Преподаватель</div>
+			<div class="teachers-t-who">Основной преподаватель</div>
 		</div></a>
 	</div>
 
