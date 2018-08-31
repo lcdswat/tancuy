@@ -81,7 +81,7 @@
 		<div class="teacher-name" id="markel">
 			<br><br><br><br>
 			<span>Александр</span><br><span>Маркелов</span><br>
-			<br>Преподаватель<br>
+			<br>Основной преподаватель<br>
 <!-- 			<div class="motto">
 				<span>Девиз:</span><br>
 				<span>Танцуй, не комплексуй!</span>
