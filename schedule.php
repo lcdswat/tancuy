@@ -42,6 +42,8 @@
 		<div class="prepods">Преподаватель Арсен,<br>возраст с 7 до 13 лет</div>
 		<div>Группа 9</div>
 		<div class="prepods">Преподаватель Арсен,<br>возраст с 7 до 13 лет</div>
+		<div>Группа 10</div>
+		<div class="prepods">Преподаватель Арсен,<br>возраст с 4 до 6 лет</div>
 	</div>
 	<div class="s-column"><div class="day-up">пн</div><div class="day-down">пн</div>
 		<div class="s-time no-bg">&nbsp;</div>
@@ -53,6 +55,7 @@
 		<div class="s-time no-bg">&nbsp;</div>
 		<div class="s-time no-bg">&nbsp;</div>
 		<div class="s-time no-bg">&nbsp;</div>
+		<div class="s-time">18:30—19:30</div>
 	</div>
 	<div class="s-column"><div class="day-up">вт</div><div class="day-down">вт</div>
 		<div class="s-time">16:00—17:30</div>
@@ -60,6 +63,7 @@
 		<div class="s-time">18:30—19:30</div>
 		<div class="s-time">19:30—21:00</div>
 		<div class="s-time">21:00—22:30</div>
+		<div class="s-time no-bg">&nbsp;</div>
 		<div class="s-time no-bg">&nbsp;</div>
 		<div class="s-time no-bg">&nbsp;</div>
 		<div class="s-time no-bg">&nbsp;</div>
@@ -75,6 +79,7 @@
 		<div class="s-time">17:00—18:00</div>
 		<div class="s-time">19:00—20:30</div>
 		<div class="s-time">20:30—22:00</div>
+		<div class="s-time">18:00—19:00</div>
 	</div>
 	<div class="s-column"><div class="day-up">чт</div><div class="day-down">чт</div>
 		<div class="s-time">16:00—17:30</div>
@@ -82,6 +87,7 @@
 		<div class="s-time">18:30—19:30</div>
 		<div class="s-time">19:30—21:00</div>
 		<div class="s-time">21:00—22:30</div>
+		<div class="s-time no-bg">&nbsp;</div>
 		<div class="s-time no-bg">&nbsp;</div>
 		<div class="s-time no-bg">&nbsp;</div>
 		<div class="s-time no-bg">&nbsp;</div>
@@ -97,8 +103,10 @@
 		<div class="s-time">17:00—18:00</div>
 		<div class="s-time">19:00—20:30</div>
 		<div class="s-time">20:30—22:00</div>
+		<div class="s-time no-bg">&nbsp;</div>
 	</div>
 	<div class="s-column"><div class="day-up">сб</div><div class="day-down">сб</div>
+		<div class="s-time no-bg">&nbsp;</div>
 		<div class="s-time no-bg">&nbsp;</div>
 		<div class="s-time no-bg">&nbsp;</div>
 		<div class="s-time no-bg">&nbsp;</div>

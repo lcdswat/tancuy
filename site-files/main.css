@@ -452,7 +452,7 @@ a .teachers-t-column  {
 
 .s-column {
 	width: 124px;
-	height: 950px;
+	height: 1050px;
 	border-left: 1px solid #B6B6B7;
 	float: left;
 }
@@ -479,7 +479,7 @@ a .teachers-t-column  {
 	font-weight: bold;
 	background-color: white;
 	position: relative;
-	top: 910px;
+	top: 1010px;
 	right: 20px;
 	padding: 5px 0 0 0;
 }

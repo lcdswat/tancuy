@@ -82,9 +82,7 @@
 			<img src="/images/artem-aliev-1.jpg"><br><br>
 			Начал свой брейк-данс путь с&nbsp;1999 года. В брейк-данс сообществе все его знают под псевдонимом «Битмастер&nbsp;Т».<br><br>
 
-			Представляет команды <b><a href="http://vk.com/bmtcrew">BMT</a>&nbsp;/&nbsp;<a href="http://vk.com/predatorzcrew">Predatorz</a></b>.<br>
-
-			Ведущий преподаватель московской брейк-данс школы <b>&laquo;<a href="http://www.volnorez.ru/">Волнорез</a>&raquo;</b>.<br><br>
+			Представляет команды <b><a href="http://vk.com/bmtcrew">BMT</a>&nbsp;/&nbsp;<a href="http://vk.com/predatorzcrew">Predatorz</a></b>.<br><br>
 
 			Опытный и&nbsp;оригинальный танцор, отличающейся своей динамикой и&nbsp;нестандартным подходом к&nbsp;любимому делу. 
 
