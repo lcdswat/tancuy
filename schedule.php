@@ -33,9 +33,9 @@
 		<div>Группа 4</div>
 		<div class="prepods">Преподаватель Андрей,<br>возраст с 7 до 13 лет</div>
 		<div>Группа 5</div>
-		<div class="prepods">Преподаватель Артур,<br>возраст с 14 лет</div>
+		<div class="prepods">Преподаватель Арсен,<br>возраст с 14 лет</div>
 		<div>Группа 6</div>
-		<div class="prepods">Преподаватель Артур,<br>возраст с 7 до 13 лет</div>
+		<div class="prepods">Преподаватель Арсен,<br>возраст с 7 до 13 лет</div>
 		<div>Группа 7</div>
 		<div class="prepods">Преподаватель Александр,<br>возраст с 4 до 6 лет</div>
 		<div>Группа 8</div>
@@ -55,7 +55,7 @@
 		<div class="s-time no-bg">&nbsp;</div>
 		<div class="s-time no-bg">&nbsp;</div>
 		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time">18:30—19:30</div>
+		<div class="s-time no-bg">&nbsp;</div>
 	</div>
 	<div class="s-column"><div class="day-up">вт</div><div class="day-down">вт</div>
 		<div class="s-time">16:00—17:30</div>
@@ -103,7 +103,7 @@
 		<div class="s-time">17:00—18:00</div>
 		<div class="s-time">19:00—20:30</div>
 		<div class="s-time">20:30—22:00</div>
-		<div class="s-time no-bg">&nbsp;</div>
+		<div class="s-time">18:00—19:00</div>
 	</div>
 	<div class="s-column"><div class="day-up">сб</div><div class="day-down">сб</div>
 		<div class="s-time no-bg">&nbsp;</div>
