@@ -31,11 +31,16 @@
 			<span class="teachers-t-name">Александр</span><span class="teachers-t-name">Маркелов</span>
 			<div class="teachers-t-who">Основной преподаватель</div>
 		</div></a>
-<!-- 		<a href="/teachers/arsen-ivanov"><div class="teachers-t-column" style="padding: 0;">
-			<img src="/images/arsen-240x240.jpg" class="round">
-			<span class="teachers-t-name">Арсен</span><span class="teachers-t-name">Иванов</span>
-			<div class="teachers-t-who">Основной преподаватель</div>
-		</div></a> -->
+ 		<!-- <a href="/teachers/arsen-ivanov"> --><div class="teachers-t-column">
+			<img src="/images/marat-240x240.jpg" class="round">
+			<span class="teachers-t-name">Марат</span><span class="teachers-t-name">Мифтахов</span>
+			<div class="teachers-t-who">Bboy Armant</div>
+		</div><!-- </a> -->
+		<!-- <a href="/teachers/arsen-ivanov"> --><div class="teachers-t-column" style="padding: 0;">
+			<img src="/images/yana-240x240.jpg" class="round">
+			<span class="teachers-t-name">Яна</span><span class="teachers-t-name">Иванова</span>
+			<div class="teachers-t-who">Администратор, преподаватель</div>
+		</div><!-- </a> -->
 	</div>
 
 	<div class="clean"></div>

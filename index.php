@@ -20,7 +20,7 @@
 	<img src="/images/slider-text-01.svg" id="i1" class="slider-text">
 	<img src="/images/slider-text-02.svg" id="i2" class="slider-text">
 	<img src="/images/slider-text-03.svg" id="i3" class="slider-text">
-	<img src="/images/slider-text-04.svg" id="i4" class="slider-text">
+	<img src="/images/slider-text-04.svg" width="303px" id="i4" class="slider-text">
 	<img src="/images/slider-text-05.svg" id="i5" class="slider-text">
 	<img src="/images/slider-text-06.svg" id="i6" class="slider-text">
 	<img src="/images/slider-text-07.svg" id="i7" class="slider-text">

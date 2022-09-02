@@ -19,7 +19,9 @@
 <div class="grid" style="font-size: 22px; line-height: 30px; margin: 40px auto 0 auto;">
 	<b>Идёт набор во все группы</b><br>
 	Количество мест ограничено<br>
-	Подробности по телефону (347) 266-56-14
+	Подробности по телефону (347) 266-56-14<br><br>
+	<b>Взрослая группа</b> от 14 лет занимаются в понедельник и четверг с 21:00 до 22:30<br><br>
+	<b>Утренняя группа</b> с 7 до 13 лет занимаются в понедельник и среду с 10:00 до 11:30,<br>преподаватель Марат
 	</div>
 
 <div id="s-main">
@@ -118,7 +120,7 @@
 		<div class="s-time no-bg">&nbsp;</div>
 	</div>
 	<div class="s-column"id="last"><div class="day-up">вс</div><div class="day-down">вс</div>
-		<div class="s-time free">Открытый урок<br>12:30—14:00</div>
+		<div class="s-time free">Открытый урок<br>12:00—13:30</div>
 	</div>
 	<div class="clean"></div>
 </div>

@@ -11,8 +11,8 @@
 
 <div class="grid" style="width: 810px;">
 	<br><br><img src="/images/price.jpg" class="round"><br><br><br>
-	<img src="/images/price-2900.svg" id="price-cost-one">
-	<img src="/images/price-350.svg" id="price-cost-two">
+	<img src="/images/price-3500.svg" width="484px" id="price-cost-one">
+	<img src="/images/price-500.svg" width="369px" id="price-cost-two">
 </div>
 <br>
 <div class="grid" style="width: 810px;">

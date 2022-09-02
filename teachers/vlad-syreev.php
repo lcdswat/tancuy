@@ -84,7 +84,7 @@
 
 		<div class="teacher-photo">
 			<img src="/images/vlad-syreev-1.jpg"><br><br>
-			Танцует брейк с&nbsp;1999&nbsp;года. Преподает уже более 12&nbsp;лет.<br>
+			Танцует брейк с 1999 года. Преподает уже более 19 лет.<br>
 			<br>
 			Представляет московскую команду <a href="http://vk.com/bmtcrew">BMT</a>.<br>
 			<br>
