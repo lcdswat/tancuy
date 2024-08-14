@@ -21,12 +21,12 @@
 			<span class="teachers-t-name">Арсен</span><span class="teachers-t-name">Ильясов</span>
 			<div class="teachers-t-who">Основной преподаватель<br><br><br></div>
 		</div></a>
-		<a href="/teachers/andrei-yakovlev"><div class="teachers-t-column" style="padding: 0;">
+<!-- 		<a href="/teachers/andrei-yakovlev"><div class="teachers-t-column" style="padding: 0;">
 			<img src="/images/andrey-yakovlev-t.jpg" class="round">
 			<span class="teachers-t-name">Андрей</span><span class="teachers-t-name">Яковлев</span>
 			<div class="teachers-t-who">Основной преподаватель<br><br><br></div>
-		</div></a>
-		<a href="/teachers/aleks-markelov"><div class="teachers-t-column">
+		</div></a> -->
+		<a href="/teachers/aleks-markelov"><div class="teachers-t-column" style="padding: 0;">
 			<img src="/images/aleks-markelov-t.jpg" class="round">
 			<span class="teachers-t-name">Александр</span><span class="teachers-t-name">Маркелов</span>
 			<div class="teachers-t-who">Основной преподаватель</div>
