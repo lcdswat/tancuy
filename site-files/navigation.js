@@ -32,7 +32,10 @@ function updateHeaderVideo() {
         return;
     }
 
-    if (!headerVideo.hasAttribute('src')) headerVideo.src = headerVideo.dataset.src;
+    if (!headerVideo.hasAttribute('src')) {
+        const useMobileVideo = mobileLayout.matches && headerVideo.canPlayType('video/mp4; codecs="avc1.64001f"');
+        headerVideo.src = useMobileVideo ? headerVideo.dataset.mobileSrc : headerVideo.dataset.src;
+    }
     headerVideo.play().catch(() => headerVideo.classList.remove('is-playing'));
 }
 
