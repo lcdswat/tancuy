@@ -3,13 +3,13 @@
 	<head>
 		<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.html'); ?>
 		<title>Преподаватель Влад Сыреев</title>
+		<meta name="description" content="Влад Сыреев — куратор центра брейк-данса.">
 	</head>
 <body>
 <style type="text/css">#active-teachers {<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/active-menu.html'); ?>}</style>
 <div class="wrapper">
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/header.html'); ?>
-	<br><br>
-	<div class="grid">
+	<div class="grid teacher-profile">
 		<div id="regalia-main">
 			<span>Регалии</span>
 			<div class="city" style="width: 294px;">
@@ -83,7 +83,7 @@
 		</div>
 
 		<div class="teacher-photo">
-			<img src="/images/vlad-syreev-1.jpg"><br><br>
+			<img class="teacher-portrait" src="/images/teacher-thumbnails/vlad-syreev-t.webp" alt="Влад Сыреев" width="800" height="800">
 			Танцует брейк с 1999 года. Преподает уже более 19 лет.<br>
 			<br>
 			Представляет московскую команду <a href="http://vk.com/bmtcrew">BMT</a>.<br>
@@ -99,13 +99,11 @@
 			<div class="teacher-video">
 				<iframe width="440" height="248" src="https://www.youtube.com/embed/EG4o5s6O12M?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 			</div>
-
-			<br><br><br><br>
 		</div>
 
 		<div class="teacher-name">
 			<br><br><br><br>
-			<span>Влад</span><br><span>Сыреев</span><br>
+			<h1 class="inline-page-heading"><span>Влад</span><br><span>Сыреев</span></h1><br>
 			<br>Куратор Центра<br>&laquo;Танцуй, не комплексуй&raquo;<br>
 <!-- 			<div class="motto">
 				<span>Девиз:</span><br>
@@ -117,7 +115,6 @@
 
 	</div>
 
-<div class="footerPush"></div>
 </div>
 
 <!-- Футер -->

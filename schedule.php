@@ -3,6 +3,7 @@
 	<head>
 		<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.html'); ?>
 		<title>Расписание</title>
+		<meta name="description" content="Расписание занятий по брейк-дансу по группам.">
 	</head>
 <body>
 
@@ -12,120 +13,79 @@
 
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/header.html'); ?>
 
-<div class="grid">
-		<br><br><br><span class="intro-header-one">Расписание</span><br><br>
+<div class="grid schedule-title">
+		<h1 class="inline-page-heading"><span class="intro-header-one">Расписание</span></h1><br><br>
 </div>
 
-<div class="grid" style="font-size: 22px; line-height: 30px; margin: 40px auto 0 auto;">
+<div class="grid schedule-intro" style="font-size: 22px; line-height: 30px; margin: 40px auto 0 auto;">
 	<b>Идёт набор во все группы</b><br>
 	Количество мест ограничено<br>
-	Подробности по телефону (347) 266-56-14<br><br>
-	<b>Взрослая группа</b> от 14 лет занимаются в понедельник и четверг с 21:00 до 22:30<br><br>
-	<b>Утренняя группа</b> с 7 до 13 лет занимаются в понедельник и среду с 10:00 до 11:30,<br>преподаватель Марат
-	</div>
-
-<div id="s-main">
-	<div id="groups">
-		<div>Группа 1</div>
-		<div class="prepods">Преподаватель Андрей,<br>возраст с 7 до 13 лет</div>
-		<div>Группа 2</div>
-		<div class="prepods">Преподаватель Андрей,<br>возраст с 4 до 6 лет</div>
-		<div>Группа 3</div>
-		<div class="prepods">Преподаватель Андрей,<br>возраст с 4 до 6 лет</div>
-		<div>Группа 4</div>
-		<div class="prepods">Преподаватель Андрей,<br>возраст с 7 до 13 лет</div>
-		<div>Группа 5</div>
-		<div class="prepods">Преподаватель Арсен,<br>возраст с 14 лет</div>
-		<div>Группа 6</div>
-		<div class="prepods">Преподаватель Арсен,<br>возраст с 7 до 13 лет</div>
-		<div>Группа 7</div>
-		<div class="prepods">Преподаватель Александр,<br>возраст с 4 до 6 лет</div>
-		<div>Группа 8</div>
-		<div class="prepods">Преподаватель Арсен,<br>возраст с 7 до 13 лет</div>
-		<div>Группа 9</div>
-		<div class="prepods">Преподаватель Арсен,<br>возраст с 7 до 13 лет</div>
-		<div>Группа 10</div>
-		<div class="prepods">Преподаватель Арсен,<br>возраст с 4 до 6 лет</div>
-	</div>
-	<div class="s-column"><div class="day-up">пн</div><div class="day-down">пн</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-	</div>
-	<div class="s-column"><div class="day-up">вт</div><div class="day-down">вт</div>
-		<div class="s-time">16:00—17:30</div>
-		<div class="s-time">17:30—18:30</div>
-		<div class="s-time">18:30—19:30</div>
-		<div class="s-time">19:30—21:00</div>
-		<div class="s-time">21:00—22:30</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-	</div>
-	<div class="s-column"><div class="day-up">ср</div><div class="day-down">ср</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time">15:30—17:00</div>
-		<div class="s-time">17:00—18:00</div>
-		<div class="s-time">19:00—20:30</div>
-		<div class="s-time">20:30—22:00</div>
-		<div class="s-time">18:00—19:00</div>
-	</div>
-	<div class="s-column"><div class="day-up">чт</div><div class="day-down">чт</div>
-		<div class="s-time">16:00—17:30</div>
-		<div class="s-time">17:30—18:30</div>
-		<div class="s-time">18:30—19:30</div>
-		<div class="s-time">19:30—21:00</div>
-		<div class="s-time">21:00—22:30</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-	</div>
-	<div class="s-column"><div class="day-up">пт</div><div class="day-down">пт</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time">15:30—17:00</div>
-		<div class="s-time">17:00—18:00</div>
-		<div class="s-time">19:00—20:30</div>
-		<div class="s-time">20:30—22:00</div>
-		<div class="s-time">18:00—19:00</div>
-	</div>
-	<div class="s-column"><div class="day-up">сб</div><div class="day-down">сб</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-		<div class="s-time no-bg">&nbsp;</div>
-	</div>
-	<div class="s-column"id="last"><div class="day-up">вс</div><div class="day-down">вс</div>
-		<div class="s-time free">Открытый урок<br>12:00—13:30</div>
-	</div>
-	<div class="clean"></div>
+	Подробности по телефону <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/phone.html'); ?>
 </div>
 
-<div class="footerPush"></div>
+<?php
+$days = ['пн', 'вт', 'ср', 'чт', 'пт', 'сб'];
+$teacherProfiles = [
+    'Арсен' => '/teachers/arsen-ilyasov',
+    'Марат' => '/teachers/marat-miftakhov',
+    'Александр' => '/teachers/aleks-markelov',
+];
+$groups = [
+    ['teacher' => 'Арсен', 'level' => 'Группа PRO', 'times' => ['пн' => '20:30–22:00', 'ср' => '20:30–22:00']],
+    ['teacher' => 'Марат', 'level' => '7–14 лет', 'times' => ['вт' => '15:30–17:00', 'чт' => '15:30–17:00']],
+    ['teacher' => 'Марат', 'level' => '7–14 лет', 'times' => ['вт' => '17:00–18:30', 'чт' => '17:00–18:30']],
+    ['teacher' => 'Александр', 'level' => '4–6 лет', 'times' => ['вт' => '18:30–19:30', 'чт' => '18:30–19:30']],
+    ['teacher' => 'Александр', 'level' => '7–14 лет', 'times' => ['вт' => '19:30–21:00', 'чт' => '19:30–21:00']],
+    ['teacher' => 'Арсен', 'level' => '7–14 лет', 'times' => ['ср' => '15:30–17:00', 'пт' => '15:30–17:00']],
+    ['teacher' => 'Александр', 'level' => '6–7 лет', 'times' => ['ср' => '17:00–18:00', 'пт' => '17:00–18:00']],
+    ['teacher' => 'Арсен', 'level' => '4–6 лет', 'times' => ['ср' => '18:00–19:00', 'пт' => '18:00–19:00']],
+    ['teacher' => 'Арсен', 'level' => '7–15 лет', 'times' => ['ср' => '19:00–20:30', 'пт' => '19:00–20:30']],
+];
+$sundayClass = 'Воскресная тренировка';
+$sundayTime = '11:30–13:00';
+?>
+<div id="s-main">
+    <div id="groups">
+        <?php foreach ($groups as $i => $group): ?>
+            <div>Группа <?= $i + 1 ?></div>
+            <div class="prepods">Преподаватель <a class="schedule-teacher" href="<?= $teacherProfiles[$group['teacher']] ?>"><?= htmlspecialchars($group['teacher']) ?></a>,<br><?= $group['level'] ?></div>
+        <?php endforeach; ?>
+    </div>
+    <?php foreach ($days as $day): ?>
+        <div class="s-column"><div class="day-up"><?= $day ?></div><div class="day-down"><?= $day ?></div>
+            <?php foreach ($groups as $group): ?>
+                <?php if (isset($group['times'][$day])): ?>
+                    <div class="s-time"><?= $group['times'][$day] ?></div>
+                <?php else: ?>
+                    <div class="s-time no-bg">&nbsp;</div>
+                <?php endif; ?>
+            <?php endforeach; ?>
+        </div>
+    <?php endforeach; ?>
+    <div class="s-column" id="last"><div class="day-up">вс</div><div class="day-down">вс</div>
+        <div class="s-time free"><?= $sundayClass ?><br><?= $sundayTime ?></div>
+    </div>
+    <div class="clean"></div>
+</div>
+
+<section class="mobile-schedule grid" aria-label="Занятия по группам" hidden>
+    <?php foreach ($groups as $i => $group): ?>
+        <article>
+            <h2>Группа <?= $i + 1 ?></h2>
+            <p><?= $group['level'] ?> · Преподаватель <a class="schedule-teacher" href="<?= $teacherProfiles[$group['teacher']] ?>"><?= htmlspecialchars($group['teacher']) ?></a></p>
+            <dl>
+                <?php foreach ($group['times'] as $day => $time): ?>
+                    <div><dt><?= $day ?></dt><dd><?= $time ?></dd></div>
+                <?php endforeach; ?>
+            </dl>
+        </article>
+    <?php endforeach; ?>
+    <article>
+        <h2><?= $sundayClass ?></h2>
+        <dl><div><dt>вс</dt><dd><?= $sundayTime ?></dd></div></dl>
+    </article>
+</section>
+
 </div>
 
 <!-- Футер -->

@@ -1,0 +1,10 @@
+node_modules/
+/_work/
+.DS_Store
+.directory
+
+# Source photos with separately generated WebP assets
+/images/photo-gallery/*.[Jj][Pp][Gg]
+
+# Source photos with separately generated WebP assets
+/images/teacher-portraits/*.[Jj][Pp][Gg]

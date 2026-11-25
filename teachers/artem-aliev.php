@@ -3,13 +3,13 @@
 	<head>
 		<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.html'); ?>
 		<title>Преподаватель Артём Алиев</title>
+		<meta name="description" content="Артём Алиев — куратор центра брейк-данса.">
 	</head>
 <body>
 <style type="text/css">#active-teachers {<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/active-menu.html'); ?>}</style>
 <div class="wrapper">
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/header.html'); ?>
-	<br><br>
-	<div class="grid">
+	<div class="grid teacher-profile">
 		<div id="regalia-main">
 			<span>Регалии</span>
 			<div class="city" style="width: 294px;">
@@ -72,14 +72,13 @@
 			ALL&nbsp;ZEROS<br>
 			<br>
 			<p>4&nbsp;место</p>
-			СЕРИЯ ВЕЧЕРИНОК КЛУБА ЗОНА &laquo;4&nbsp;КОРОЛЯ&raquo;<br>
-			<br>
+			СЕРИЯ ВЕЧЕРИНОК КЛУБА ЗОНА &laquo;4&nbsp;КОРОЛЯ&raquo;
 			</div>
 			<div class="clean"></div>
 		</div>
 
 		<div class="teacher-photo">
-			<img src="/images/artem-aliev-1.jpg"><br><br>
+			<img class="teacher-portrait" src="/images/teacher-thumbnails/artem-aliev-t.webp" alt="Артём Алиев" width="800" height="800">
 			Начал свой брейк-данс путь с&nbsp;1999 года. В брейк-данс сообществе все его знают под псевдонимом «Битмастер&nbsp;Т».<br><br>
 
 			Представляет команды <b><a href="http://vk.com/bmtcrew">BMT</a>&nbsp;/&nbsp;<a href="http://vk.com/predatorzcrew">Predatorz</a></b>.<br><br>
@@ -94,13 +93,11 @@
 			<div class="teacher-video">
 				<iframe width="440" height="248" src="https://www.youtube.com/embed/4NCvz0pVsFc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 			</div>
-
-			<br><br><br><br>
 		</div>
 
 		<div class="teacher-name">
 			<br><br><br><br>
-			<span>Артём</span><br><span>Алиев</span><br>
+			<h1 class="inline-page-heading"><span>Артём</span><br><span>Алиев</span></h1><br>
 			<br>Куратор Центра<br>&laquo;Танцуй, не комплексуй&raquo;<br>
 <!-- 			<div class="motto">
 				<span>Девиз:</span><br>
@@ -112,7 +109,6 @@
 
 	</div>
 
-<div class="footerPush"></div>
 </div>
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/footer.html'); ?>
 </body>

@@ -3,13 +3,13 @@
 	<head>
 		<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.html'); ?>
 		<title>Преподаватель Александр Маркелов</title>
+		<meta name="description" content="Александр Маркелов — преподаватель брейк-данса.">
 	</head>
 <body>
 <style type="text/css">#active-teachers {<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/active-menu.html'); ?>}</style>
 <div class="wrapper">
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/header.html'); ?>
-	<br><br>
-	<div class="grid">
+	<div class="grid teacher-profile">
 		<div id="regalia-main">
 			<span>Участие и Победы</span>
 			<div class="city">
@@ -69,19 +69,17 @@
 		</div>
 
 		<div class="teacher-photo">
-			<img src="/images/aleks-markelov.jpg"><br><br>
-			Брейк-дансом начал заниматься с&nbsp;15&nbsp;лет , преподавательский стаж 9&nbsp;лет.<br>
-			<br>
-			Представляет команду &laquo;Новатор&raquo; и&nbsp;сообщество &laquo;Танцуй, не&nbsp;комплексуй&raquo;. Является организатором ежегодного чемпионата по&nbsp;брейк-дансу NOVATOR JAM.<br>
-			<br>
-			Важным считает найти связь с&nbsp;учеником, которому передает знания, заинтересовать и&nbsp;показать максимально развернуто всю культуру брейк-данса в&nbsp;целом, развить в&nbsp;каждом воспитаннике свой индивидуальный почерк, ну&nbsp;и&nbsp;конечно&nbsp;же физическая подготовка и&nbsp;дисциплина, благодаря этому пути можно достичь хороших результатов.
-			<br>
+			<img class="teacher-portrait" src="/images/teacher-portraits/aleks-markelov.webp" alt="Александр Маркелов" width="800" height="1200">
+			<p>Брейк-дансом начал заниматься с 15 лет, преподавательский стаж 18 лет.</p>
+			<p>Представляет команду «Новатор» и сообщество «Танцуй, не комплексуй».</p>
+			<p>Важным считает найти связь с учеником, которому передает знания, заинтересовать и показать максимально развернуто всю культуру брейк-данса в целом, развить в каждом воспитаннике свой индивидуальный почерк, ну и конечно же физическая подготовка и дисциплина, благодаря этому пути можно достичь хороших результатов.</p>
+			<p>Соорганизатор Всероссийского танцевального фестиваля «Mega Dance Fest» (фестиваль организуется при поддержке ТЦ Мега). Соорганизатор регионального танцевального чемпионата «Hip-Hop Connect».</p>
 		</div>
 
 		<div class="teacher-name" id="markel">
 			<br><br><br><br>
-			<span>Александр</span><br><span>Маркелов</span><br>
-			<br>Основной преподаватель<br>
+			<h1 class="inline-page-heading"><span>Александр</span><br><span>Маркелов</span></h1><br>
+			<br>Основной преподаватель центра<br>
 <!-- 			<div class="motto">
 				<span>Девиз:</span><br>
 				<span>Танцуй, не комплексуй!</span>
@@ -92,7 +90,6 @@
 
 	</div>
 
-<div class="footerPush"></div>
 </div>
 
 <!-- Футер -->

@@ -3,13 +3,13 @@
 	<head>
 		<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.html'); ?>
 		<title>Преподаватель Артур Хабиров</title>
+		<meta name="description" content="Артур Хабиров — художественный руководитель центра.">
 	</head>
 <body>
 <style type="text/css">#active-teachers {<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/active-menu.html'); ?>}</style>
 <div class="wrapper">
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/header.html'); ?>
-	<br><br>
-	<div class="grid">
+	<div class="grid teacher-profile">
 		<div id="regalia-main">
 			<span>Регалии за 1 место</span>
 			<div class="city">
@@ -64,32 +64,18 @@
 		</div>
 
 		<div class="teacher-photo">
-			<img src="/images/artur-habirov-1.jpg"><br><br>
-			Танцует с&nbsp;2000&nbsp;года, преподает с&nbsp;2005&nbsp;года.<br>
-			Представитель команды No&nbsp;Sense Crew/No Sense Rockers 
-			(Уфа, Оренбург).<br><br>
-
-			Автор и&nbsp;ведущий проекта &laquo;Танцуй&raquo;<br>
-			на&nbsp;Городском телеканале UTV.<br><br>
-
-			За&nbsp;свою танцевальную деятельность организовал<br>
-			немало крупных Всероссийских фестивалей и&nbsp;чемпионатов по&nbsp;Брейк-дансу. Вместе с&nbsp;командой<br>единомышленников открыл центр брейк-данса &laquo;Танцуй,не комплексуй&raquo;.<br><br>
-
-			Воспитал не&nbsp;одно поколение учеников в&nbsp;Уфе, которое успешно развивается и&nbsp;добивается отличных<br>результатов в&nbsp;брейкинг культуре.<br><br>
-
-			В&nbsp;своем преподавании Артур делает упор на&nbsp;всестороннее развитие личности и&nbsp;помогает ученику раскрыть свой танцевальный потенциал.<br><br>
-
-			Участник проекта «Танцы» на Телеканале ТНТ, 4 сезон.<br><br><br>
-
+			<img class="teacher-portrait" src="/images/teacher-portraits/artur-habirov.webp" alt="Артур Хабиров" width="800" height="1200">
+			<p>Танцует с 2000 года, преподает с 2005 года. Представитель команды No Sense Crew / Танцуй, не комплексуй / Radi Sveta</p>
+			<p>Автор и ведущий проекта «Танцуй» на Городском телеканале UTV. Вместе с командой единомышленников в 2015 году открыл центр брейк-данса «Танцуй, не комплексуй».</p>
+			<p>В своем преподавании Артур делает упор на всестороннее развитие личности и помогает ученику раскрыть свой танцевальный потенциал.</p>
+			<p>Участник проекта «Танцы» на Телеканале ТНТ, 4 сезон. Неоднократный призёр, судья, участник и победитель Всероссийских и Международных танцевальных фестивалей и чемпионатов.</p>
+			<p>Соорганизатор Всероссийского танцевального фестиваля «Mega Dance Fest» (фестиваль организуется при поддержке ТЦ Мега). Соорганизатор регионального танцевального чемпионата «Hip-Hop Connect».</p>
 			<iframe width="440" height="247" src="//rutube.ru/play/embed/10627261?sTitle=false&sAuthor=false" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowfullscreen></iframe>
-
-
-			<br><br><br><br>
 		</div>
 
 		<div class="teacher-name">
 			<br><br><br><br>
-			<span>Артур</span><br><span>Хабиров</span><br>
+			<h1 class="inline-page-heading"><span>Артур</span><br><span>Хабиров</span></h1><br>
 			<br>Художественный<br>руководитель центра,<br>преподаватель<br>
 			<div class="motto">
 				<span>Девиз:</span><br>
@@ -101,7 +87,6 @@
 
 	</div>
 
-<div class="footerPush"></div>
 </div>
 
 <!-- Футер -->

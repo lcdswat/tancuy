@@ -3,77 +3,84 @@
 	<head>
 		<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.html'); ?>
 		<title>Преподаватели</title>
+		<meta name="description" content="Преподаватели и кураторы центра брейк-данса.">
 	</head>
 <body>
 <style type="text/css">#active-teachers {<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/active-menu.html'); ?>}</style>
 <div class="wrapper">
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/header.html'); ?>
 
-	<div class="teachers-t-main">
-	<br><span class="intro-header-two">Преподаватели</span><br><br>
-		<a href="/teachers/artur-habirov"><div class="teachers-t-column">
-			<img src="/images/artur-habirov-t.jpg" class="round">
-			<span class="teachers-t-name">Артур</span><span class="teachers-t-name">Хабиров</span>
-			<div class="teachers-t-who">Художественный руководитель центра, преподаватель<br><br></div>
-		</div></a>
-		<a href="/teachers/arsen-ilyasov"><div class="teachers-t-column">
-			<img src="/images/arsen-ilyasov-t.jpg" class="round">
-			<span class="teachers-t-name">Арсен</span><span class="teachers-t-name">Ильясов</span>
-			<div class="teachers-t-who">Основной преподаватель<br><br><br></div>
-		</div></a>
-<!-- 		<a href="/teachers/andrei-yakovlev"><div class="teachers-t-column" style="padding: 0;">
-			<img src="/images/andrey-yakovlev-t.jpg" class="round">
-			<span class="teachers-t-name">Андрей</span><span class="teachers-t-name">Яковлев</span>
-			<div class="teachers-t-who">Основной преподаватель<br><br><br></div>
-		</div></a> -->
-		<a href="/teachers/aleks-markelov"><div class="teachers-t-column" style="padding: 0;">
-			<img src="/images/aleks-markelov-t.jpg" class="round">
-			<span class="teachers-t-name">Александр</span><span class="teachers-t-name">Маркелов</span>
+	<section class="teachers-t-main teacher-roster">
+		<h1 class="intro-header-two">Преподаватели</h1>
+		<a href="/teachers/artur-habirov" class="teachers-t-column">
+			<span class="teacher-thumbnail">
+				<img src="/images/teacher-thumbnails/artur-habirov.webp" alt="" width="800" height="800">
+			</span>
+			<span class="teachers-t-name">Артур</span> <span class="teachers-t-name">Хабиров</span>
+			<div class="teachers-t-who">Художественный руководитель центра, преподаватель</div>
+		</a>
+		<a href="/teachers/arsen-ilyasov" class="teachers-t-column">
+			<span class="teacher-thumbnail">
+				<img src="/images/teacher-thumbnails/arsen-ilyasov.webp" alt="" width="800" height="800">
+			</span>
+			<span class="teachers-t-name">Арсен</span> <span class="teachers-t-name">Ильясов</span>
 			<div class="teachers-t-who">Основной преподаватель</div>
-		</div></a>
- 		<!-- <a href="/teachers/arsen-ivanov"> --><div class="teachers-t-column">
-			<img src="/images/marat-240x240.jpg" class="round">
-			<span class="teachers-t-name">Марат</span><span class="teachers-t-name">Мифтахов</span>
-			<div class="teachers-t-who">Bboy Armant</div>
-		</div><!-- </a> -->
-		<!-- <a href="/teachers/arsen-ivanov"> --><div class="teachers-t-column" style="padding: 0;">
-			<img src="/images/yana-240x240.jpg" class="round">
-			<span class="teachers-t-name">Яна</span><span class="teachers-t-name">Иванова</span>
-			<div class="teachers-t-who">Администратор, преподаватель</div>
-		</div><!-- </a> -->
-	</div>
-
-	<div class="clean"></div>
-
-	<br><br>
-
-	<div class="teachers-t-main">
-	<br><span class="intro-header-two">Кураторы Центра</span><br><br>
-		<a href="/teachers/artem-aliev">
-			<div class="little-teachers-t-column">
-				<img src="/images/artem-aliev-t.jpg" class="round">
-				<span class="little-teachers-t-name">Артём</span><span class="little-teachers-t-name">Алиев</span>
-			</div>
 		</a>
-<!-- 		<div class="little-teachers-t-column">
-			<img src="/images/vlad-syreev-t.jpg" class="round">
-			<span class="little-teachers-t-name">Влад</span><span class="little-teachers-t-name">Сыреев</span>
-		</div> -->
-<!-- 		<div class="little-teachers-t-column">
-			<img src="/images/artem-aliev-t.jpg" class="round">
-			<span class="little-teachers-t-name">Артём</span><span class="little-teachers-t-name">Алиев</span>
-		</div> -->
-		<a href="/teachers/vlad-syreev">
-			<div class="little-teachers-t-column" style="padding: 0;">
-				<img src="/images/vlad-syreev-t.jpg" class="round">
-				<span class="little-teachers-t-name">Влад</span><span class="little-teachers-t-name">Сыреев</span>
-			</div>
+		<a href="/teachers/aleks-markelov" class="teachers-t-column">
+			<span class="teacher-thumbnail">
+				<img src="/images/teacher-thumbnails/aleks-markelov.webp" alt="" width="800" height="800">
+			</span>
+			<span class="teachers-t-name">Александр</span> <span class="teachers-t-name">Маркелов</span>
+			<div class="teachers-t-who">Основной преподаватель</div>
 		</a>
-	</div>
+		<a href="/teachers/marat-miftakhov" class="teachers-t-column">
+			<span class="teacher-thumbnail">
+				<img src="/images/teacher-thumbnails/marat-miftakhov.webp" alt="" width="800" height="800">
+			</span>
+			<span class="teachers-t-name">Марат</span> <span class="teachers-t-name">Мифтахов</span>
+			<div class="teachers-t-who">Основной преподаватель</div>
+		</a>
+	</section>
 
-	<div class="clean"><br><br><br></div>
+	<section class="teachers-t-main teacher-roster teacher-curators">
+		<h2 class="intro-header-two">Кураторы Центра</h2>
+		<a href="/teachers/artem-aliev" class="little-teachers-t-column">
+			<span class="teacher-thumbnail">
+				<img src="/images/teacher-thumbnails/artem-aliev-t.webp" alt="" width="800" height="800">
+			</span>
+			<span class="little-teachers-t-name">Артём</span> <span class="little-teachers-t-name">Алиев</span>
+			<div class="teachers-t-who">Москва</div>
+		</a>
+		<a href="/teachers/vlad-syreev" class="little-teachers-t-column">
+			<span class="teacher-thumbnail">
+				<img src="/images/teacher-thumbnails/vlad-syreev-t.webp" alt="" width="800" height="800">
+			</span>
+			<span class="little-teachers-t-name">Влад</span> <span class="little-teachers-t-name">Сыреев</span>
+			<div class="teachers-t-who">Москва</div>
+		</a>
+		<div class="little-teachers-t-column">
+			<span class="teacher-thumbnail">
+				<img src="/images/teacher-thumbnails/ruslan-kashapov.webp" alt="" width="800" height="800">
+			</span>
+			<span class="little-teachers-t-name">Руслан</span> <span class="little-teachers-t-name">Кашапов</span>
+			<div class="teachers-t-who">Москва</div>
+		</div>
+		<div class="little-teachers-t-column">
+			<span class="teacher-thumbnail">
+				<img src="/images/teacher-thumbnails/igor-shadrin.webp" alt="" width="800" height="800">
+			</span>
+			<span class="little-teachers-t-name">Игорь</span> <span class="little-teachers-t-name">Шадрин</span>
+			<div class="teachers-t-who">Екатеринбург</div>
+		</div>
+		<div class="little-teachers-t-column">
+			<span class="teacher-thumbnail">
+				<img src="/images/teacher-thumbnails/konstantin-kudrin.webp" alt="" width="800" height="800">
+			</span>
+			<span class="little-teachers-t-name">Константин</span> <span class="little-teachers-t-name">Кудрин</span>
+			<div class="teachers-t-who">Екатеринбург</div>
+		</div>
+	</section>
 
-<div class="footerPush"></div>
 </div>
 
 <!-- Футер -->

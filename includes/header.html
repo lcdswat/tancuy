@@ -1,23 +1,19 @@
 	<div id="header">
+		<div class="header-backdrop" aria-hidden="true">
+			<video class="header-video" data-src="/site-files/tancuy-header-video.webm" muted loop playsinline preload="none"></video>
+		</div>
 		
+		<button type="button" class="menu-toggle" aria-controls="main-menu" aria-expanded="false" hidden>Меню</button>
 		<div id="header-social">
-			<a href="https://vk.com/tancuyufa"><img src="/site-files/vk-round.svg"></a>
+			<a href="https://vk.com/tancuyufa"><img src="/site-files/vk-round.svg" alt="ВКонтакте"></a>
 			<!-- <a href="https://www.instagram.com/tancuy_ne_kompleksuy/"><img src="/site-files/inst-round.svg"></a> -->
 			<!-- <a href="https://www.youtube.com/channel/UCHQCAEgNrMQtSPMJM8mE-DA"><img src="/site-files/youtube-round.svg"></a> -->
 		</div>
 
 		<div id="call-us">
-			<!-- <div class="whatsapp"></div> -->
-			<span style='font-weight:bold;color:#E50046; font-size: 18px;'>
-				<!-- 8&nbsp;927&nbsp;236&nbsp;56&nbsp;14 -->
-			</span><br>
-			<div class="phone"></div>
-			<span style='font-weight:bold;color:#E50046; font-size: 18px;'>
-				(347)&nbsp;266-56-14
-			</span>
-			<div class="clean"></div>
+			<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/phone.html'); ?>
 		</div>
-		<a href="/" id="logo"></a>
+		<a href="/" id="logo" aria-label="Танцуй, не комплексуй! — на главную"></a>
 		<div id="main-menu">
 			<div><a href="/" id="active-about">О центре</a></div>
 			<div><a href="/teachers/" id="active-teachers">Преподаватели</a></div>

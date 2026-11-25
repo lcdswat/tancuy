@@ -3,13 +3,13 @@
 	<head>
 		<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.html'); ?>
 		<title>Преподаватель Александр Маркелов</title>
+		<meta name="description" content="Арсен Иванов — преподаватель брейк-данса.">
 	</head>
 <body>
 <style type="text/css">#active-teachers {<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/active-menu.html'); ?>}</style>
 <div class="wrapper">
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/header.html'); ?>
-	<br><br>
-	<div class="grid">
+	<div class="grid teacher-profile">
 		<div id="regalia-main">
 			<span>Регалии</span>
 			<div class="city" style="width: 294px;">
@@ -51,7 +51,7 @@
 		</div>
 
 		<div class="teacher-photo">
-			<img src="/images/arsen-400x400.jpg"><br><br>
+			<img class="teacher-portrait" src="/images/teacher-thumbnails/arsen-ivanov.webp" alt="Арсен Иванов" width="800" height="800">
 
 			Арсен Иванов, он же Bboy «News», — преподаватель центра.<br>
 			Танцует с 2012 года. Начал преподавательскую деятельность в 2014 году. За всё время своей танцевальной жизни успел посетить десятки фестивалей в России, а также участвовал в международных чемпионатах в Нидерландах, Словакии и Чехии.<br><br>
@@ -66,13 +66,12 @@
 
 			Арсен Эдуардович ждёт всех ребят на своих занятиях. Он работает с детьми от 4 до 6 лет и ребятами от 7 до 13 лет.<br><br>
 
-			*Аction Film — танцевальная погоня и блокбастер на голове)<br><br><br><br><br>
-
+			*Аction Film — танцевальная погоня и блокбастер на голове)
 		</div>
 
 		<div class="teacher-name" id="markel">
 			<br><br><br><br>
-			<span>Арсен</span><br><span>Иванов	</span><br>
+			<h1 class="inline-page-heading"><span>Арсен</span><br><span>Иванов	</span></h1><br>
 			<br>Основной преподаватель<br>
 <!-- 			<div class="motto">
 				<span>Девиз:</span><br>
@@ -84,7 +83,6 @@
 
 	</div>
 
-<div class="footerPush"></div>
 </div>
 
 <!-- Футер -->

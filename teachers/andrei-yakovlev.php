@@ -3,13 +3,13 @@
 	<head>
 		<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.html'); ?>
 		<title>Преподаватель Андрей Яковлев</title>
+		<meta name="description" content="Андрей Яковлев — преподаватель брейк-данса.">
 	</head>
 <body>
 <style type="text/css">#active-teachers {<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/active-menu.html'); ?>}</style>
 <div class="wrapper">
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/header.html'); ?>
-	<br><br>
-	<div class="grid">
+	<div class="grid teacher-profile">
 		<div id="regalia-main">
 			<span>Регалии</span>
 			<div class="city" style="width: 294px;">
@@ -77,7 +77,7 @@
 		</div>
 
 		<div class="teacher-photo">
-			<img src="/images/andrey-yakovlev-1.jpg"><br><br>
+			<img class="teacher-portrait" src="/images/teacher-thumbnails/andrei-yakovlev.webp" alt="Андрей Яковлев" width="800" height="800">
 			Андрей Яковлев — 22 года. Основной преподаватель центра.<br><br>
 			Танцами начал заниматься с&nbsp;7&nbsp;лет. Брейк-дансом занимается 8&nbsp;лет. Преподавательский стаж-5&nbsp;лет. Представляет команду No&nbsp;Sense Crew/No Sense Rockers/Just Funk и&nbsp;сообщество &laquo;Танцуй, не&nbsp;комплексуй&raquo;.<br><br>
 
@@ -89,14 +89,11 @@
 			<div class="teacher-video">
 				<iframe width="440" height="247" src="https://www.youtube.com/embed/35w0d7x2Mys?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 			</div>
-
-			<br><br><br><br>
-
 		</div>
 
 		<div class="teacher-name">
 			<br><br><br><br>
-			<span>Андрей</span><br><span>Яковлев</span><br>
+			<h1 class="inline-page-heading"><span>Андрей</span><br><span>Яковлев</span></h1><br>
 			<br>Основной преподаватель<br>
 <!-- 			<div class="motto">
 				<span>Девиз:</span><br>
@@ -108,7 +105,6 @@
 
 	</div>
 
-<div class="footerPush"></div>
 </div>
 
 <!-- Футер -->
