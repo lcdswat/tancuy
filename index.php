@@ -43,7 +43,7 @@ $mobileDigitViewBoxes = [
 $introSubtitle = 'Или для тех, кто любит сравнивать';
 $desktopSlideLines = $slideLines;
 // Эти две десктопные плашки сохраняют переносы исходного макета.
-foreach ([2 => [3, 5], 7 => [1, 2]] as $i => [$firstLineWords, $secondLineWords]) {
+foreach ([2 => [3, 5], 7 => [1, 2]] as $i => list($firstLineWords, $secondLineWords)) {
     $words = explode(' ', implode(' ', $slideLines[$i]));
     $desktopSlideLines[$i] = [
         implode(' ', array_slice($words, 0, $firstLineWords)),

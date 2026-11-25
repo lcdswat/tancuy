@@ -19,13 +19,15 @@ $galleryVideos = [
 ?>
 <div class="photo-gallery" id="photo-gallery">
     <div id="gallery-strip" role="region" aria-label="Фото и видео из жизни центра">
-        <?php foreach ($galleryPhotos as [$id, $description, $width, $height]): ?>
+        <?php foreach ($galleryPhotos as list($id, $description, $width, $height)): ?>
             <?php
             $baseUrl = '/images/photo-gallery/' . $id . '-';
             $ratio = $width / $height;
             $landscape = $width > $height;
             $previewHeights = array_unique(array_map(
-                static fn ($size) => min($size, $height),
+                static function ($size) use ($height) {
+                    return min($size, $height);
+                },
                 [276, 450, 552, 900, 1152]
             ));
             $srcset = [];
@@ -43,7 +45,7 @@ $galleryVideos = [
                      alt="" width="<?= $width ?>" height="<?= $height ?>" loading="lazy" decoding="async">
             </a>
             <?php if (isset($galleryVideos[$id])): ?>
-                <?php [$videoId, $poster, $title] = $galleryVideos[$id]; ?>
+                <?php list($videoId, $poster, $title) = $galleryVideos[$id]; ?>
                 <a class="photo-gallery-photo photo-gallery-video photo-gallery-landscape" href="https://www.youtube.com/watch?v=<?= $videoId ?>"
                    data-fancybox="center-life-photos" aria-label="Смотреть видео: <?= htmlspecialchars($title) ?>">
                     <img src="/images/<?= $poster ?>" alt="" width="810" height="431" loading="lazy" decoding="async">
