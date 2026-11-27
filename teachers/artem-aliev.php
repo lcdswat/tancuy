@@ -10,6 +10,35 @@
 <div class="wrapper">
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/header.html'); ?>
 	<div class="grid teacher-profile">
+		<div class="teacher-name">
+			<br><br><br><br>
+			<h1 class="inline-page-heading"><span>Артём</span><br><span>Алиев</span></h1><br>
+			<br>Куратор Центра<br>&laquo;Танцуй, не комплексуй&raquo;<br>
+<!-- 			<div class="motto">
+				<span>Девиз:</span><br>
+				<span>Танцуй, не комплексуй!</span>
+			</div> -->
+		</div>
+
+		<div class="teacher-photo">
+			<img class="teacher-portrait" src="/images/teacher-thumbnails/artem-aliev-t.webp" alt="Артём Алиев" width="800" height="800">
+			Начал свой брейк-данс путь с&nbsp;1999 года. В брейк-данс сообществе все его знают под псевдонимом «Битмастер&nbsp;Т».<br><br>
+
+			Представляет команды <b><a href="http://vk.com/bmtcrew">BMT</a>&nbsp;/&nbsp;<a href="http://vk.com/predatorzcrew">Predatorz</a></b>.<br><br>
+
+			Опытный и&nbsp;оригинальный танцор, отличающейся своей динамикой и&nbsp;нестандартным подходом к&nbsp;любимому делу.
+
+			Чемпион Мира по&nbsp;брейк-дансу, неоднократный победитель Чемпионатов по&nbsp;Брейк-дансу в&nbsp;России, США и&nbsp;Европе.<br><br>
+			Мы&nbsp;очень рады тому, что Артем будет заниматься аттестацией учеников нашего центра.
+
+			<?php
+			$teacherVideoFile = 'artem-aliev';
+			$teacherVideoId = 'artem-aliev-video';
+			$teacherVideoTitle = 'Видео с Артёмом';
+			include($_SERVER['DOCUMENT_ROOT'].'/includes/teacher-local-video.php');
+			?>
+		</div>
+
 		<div id="regalia-main">
 			<span>Регалии</span>
 			<div class="city" style="width: 294px;">
@@ -76,37 +105,6 @@
 			</div>
 			<div class="clean"></div>
 		</div>
-
-		<div class="teacher-photo">
-			<img class="teacher-portrait" src="/images/teacher-thumbnails/artem-aliev-t.webp" alt="Артём Алиев" width="800" height="800">
-			Начал свой брейк-данс путь с&nbsp;1999 года. В брейк-данс сообществе все его знают под псевдонимом «Битмастер&nbsp;Т».<br><br>
-
-			Представляет команды <b><a href="http://vk.com/bmtcrew">BMT</a>&nbsp;/&nbsp;<a href="http://vk.com/predatorzcrew">Predatorz</a></b>.<br><br>
-
-			Опытный и&nbsp;оригинальный танцор, отличающейся своей динамикой и&nbsp;нестандартным подходом к&nbsp;любимому делу. 
-
-			Чемпион Мира по&nbsp;брейк-дансу, неоднократный победитель Чемпионатов по&nbsp;Брейк-дансу в&nbsp;России, США и&nbsp;Европе.<br><br>
-			Мы&nbsp;очень рады тому, что Артем будет заниматься аттестацией учеников нашего центра.<br><br><br><br>
-
-			<b>Видео с Артёмом</b><br><br>
-
-			<div class="teacher-video">
-				<iframe width="440" height="248" src="https://www.youtube.com/embed/4NCvz0pVsFc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-			</div>
-		</div>
-
-		<div class="teacher-name">
-			<br><br><br><br>
-			<h1 class="inline-page-heading"><span>Артём</span><br><span>Алиев</span></h1><br>
-			<br>Куратор Центра<br>&laquo;Танцуй, не комплексуй&raquo;<br>
-<!-- 			<div class="motto">
-				<span>Девиз:</span><br>
-				<span>Танцуй, не комплексуй!</span>
-			</div> -->
-		</div>
-
-		<div class="clean"></div>
-
 	</div>
 
 </div>

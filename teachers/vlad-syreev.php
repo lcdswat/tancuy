@@ -10,6 +10,36 @@
 <div class="wrapper">
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/header.html'); ?>
 	<div class="grid teacher-profile">
+		<div class="teacher-name">
+			<br><br><br><br>
+			<h1 class="inline-page-heading"><span>Влад</span><br><span>Сыреев</span></h1><br>
+			<br>Куратор Центра<br>&laquo;Танцуй, не комплексуй&raquo;<br>
+<!-- 			<div class="motto">
+				<span>Девиз:</span><br>
+				<span>Танцуй, не комплексуй!</span>
+			</div> -->
+		</div>
+
+		<div class="teacher-photo">
+			<img class="teacher-portrait" src="/images/teacher-thumbnails/vlad-syreev-t.webp" alt="Влад Сыреев" width="800" height="800">
+			Танцует брейк с 1999 года. Преподает уже более 19 лет.<br>
+			<br>
+			Представляет московскую команду <a href="http://vk.com/bmtcrew">BMT</a>.<br>
+			<br>
+			Влад очень часто путешествует и&nbsp;много времени уделяет своему танцевальному развитию. Является Чемпионом Мира по&nbsp;брейк-дансу, и&nbsp;не&nbsp;раз показал на&nbsp;деле многим зарубежным бибоям, насколько силен Российский Брейк-данс. <br>
+			<br>
+			В&nbsp;танце выделяется своей оригинальностью и&nbsp;позитивом. <br>
+			<br>
+			Мы&nbsp;очень ценим тот факт, что Влад будет заниматься аттестацией учеников нашего центра.
+
+			<?php
+			$teacherVideoFile = 'vlad-syreev';
+			$teacherVideoId = 'vlad-syreev-video';
+			$teacherVideoTitle = 'Видео с Владом';
+			include($_SERVER['DOCUMENT_ROOT'].'/includes/teacher-local-video.php');
+			?>
+		</div>
+
 		<div id="regalia-main">
 			<span>Регалии</span>
 			<div class="city" style="width: 294px;">
@@ -81,38 +111,6 @@
 			</div>
 			<div class="clean"></div>
 		</div>
-
-		<div class="teacher-photo">
-			<img class="teacher-portrait" src="/images/teacher-thumbnails/vlad-syreev-t.webp" alt="Влад Сыреев" width="800" height="800">
-			Танцует брейк с 1999 года. Преподает уже более 19 лет.<br>
-			<br>
-			Представляет московскую команду <a href="http://vk.com/bmtcrew">BMT</a>.<br>
-			<br>
-			Влад очень часто путешествует и&nbsp;много времени уделяет своему танцевальному развитию. Является Чемпионом Мира по&nbsp;брейк-дансу, и&nbsp;не&nbsp;раз показал на&nbsp;деле многим зарубежным бибоям, насколько силен Российский Брейк-данс. <br>
-			<br>
-			В&nbsp;танце выделяется своей оригинальностью и&nbsp;позитивом. <br>
-			<br>
-			Мы&nbsp;очень ценим тот факт, что Влад будет заниматься аттестацией учеников нашего центра.<br><br><br><br>
-
-			<b>Видео с Владом</b><br><br>
-
-			<div class="teacher-video">
-				<iframe width="440" height="248" src="https://www.youtube.com/embed/EG4o5s6O12M?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-			</div>
-		</div>
-
-		<div class="teacher-name">
-			<br><br><br><br>
-			<h1 class="inline-page-heading"><span>Влад</span><br><span>Сыреев</span></h1><br>
-			<br>Куратор Центра<br>&laquo;Танцуй, не комплексуй&raquo;<br>
-<!-- 			<div class="motto">
-				<span>Девиз:</span><br>
-				<span>Танцуй, не комплексуй!</span>
-			</div> -->
-		</div>
-
-		<div class="clean"></div>
-
 	</div>
 
 </div>

@@ -13,8 +13,9 @@ $galleryPhotos = [
     ['11', 'Белый логотип центра на чёрной футболке', 1280, 853],
 ];
 $galleryVideos = [
-    '03' => ['iINSMA_gW9I', 'centr-life.jpg', 'Танцевальное выступление в центре'],
-    '08' => ['LLur8CMKJ6A', 'centr-life-2.jpg', 'Интервью с юным танцором'],
+    '03' => ['center-life-performance', 'Танцевальное выступление в центре'],
+    '08' => ['center-life-interview', 'Интервью с юным танцором'],
+    '11' => ['center-life-extra', 'Фрагменты зимней сессии'],
 ];
 ?>
 <div class="photo-gallery" id="photo-gallery">
@@ -45,10 +46,11 @@ $galleryVideos = [
                      alt="" width="<?= $width ?>" height="<?= $height ?>" loading="lazy" decoding="async">
             </a>
             <?php if (isset($galleryVideos[$id])): ?>
-                <?php list($videoId, $poster, $title) = $galleryVideos[$id]; ?>
-                <a class="photo-gallery-photo photo-gallery-video photo-gallery-landscape" href="https://www.youtube.com/watch?v=<?= $videoId ?>"
+                <?php list($videoFile, $title) = $galleryVideos[$id]; ?>
+                <a class="photo-gallery-photo photo-gallery-video photo-gallery-landscape video-preview"
+                   href="/media/videos/<?= $videoFile ?>.mp4" data-local-video
                    data-fancybox="center-life-photos" aria-label="Смотреть видео: <?= htmlspecialchars($title) ?>">
-                    <img src="/images/<?= $poster ?>" alt="" width="810" height="431" loading="lazy" decoding="async">
+                    <img src="/media/videos/<?= $videoFile ?>.webp" alt="" width="1620" height="862" loading="lazy" decoding="async">
                 </a>
             <?php endif; ?>
         <?php endforeach; ?>

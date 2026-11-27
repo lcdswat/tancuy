@@ -8,3 +8,6 @@ node_modules/
 
 # Source photos with separately generated WebP assets
 /images/teacher-portraits/*.[Jj][Pp][Gg]
+
+# Hosted video files and posters
+/media/videos/

@@ -10,6 +10,32 @@
 <div class="wrapper">
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/header.html'); ?>
 	<div class="grid teacher-profile">
+		<div class="teacher-name">
+			<br><br><br><br>
+			<h1 class="inline-page-heading"><span>Андрей</span><br><span>Яковлев</span></h1><br>
+			<br>Основной преподаватель<br>
+<!-- 			<div class="motto">
+				<span>Девиз:</span><br>
+				<span>Танцуй, не комплексуй!</span>
+			</div> -->
+		</div>
+
+		<div class="teacher-photo">
+			<img class="teacher-portrait" src="/images/teacher-thumbnails/andrei-yakovlev.webp" alt="Андрей Яковлев" width="800" height="800">
+			Андрей Яковлев — 22 года. Основной преподаватель центра.<br><br>
+			Танцами начал заниматься с&nbsp;7&nbsp;лет. Брейк-дансом занимается 8&nbsp;лет. Преподавательский стаж-5&nbsp;лет. Представляет команду No&nbsp;Sense Crew/No Sense Rockers/Just Funk и&nbsp;сообщество &laquo;Танцуй, не&nbsp;комплексуй&raquo;.<br><br>
+
+			В&nbsp;работе с&nbsp;учениками использует разные методы и&nbsp;подходы к&nbsp;обучению: физическая подготовка, растяжка, изучение базы, использование элементов из&nbsp;акробатики, индивидуальный и&nbsp;нестандартный подход ,в ходе которого выявляются сильные стороны ученика.<br><br>
+			Одна из&nbsp;целей Андрея- воспитать в&nbsp;каждом ученике достойные и&nbsp;благородные качества.
+
+			<?php
+			$teacherVideoFile = 'andrei-yakovlev';
+			$teacherVideoId = 'andrei-yakovlev-video';
+			$teacherVideoTitle = 'Видео с Андреем';
+			include($_SERVER['DOCUMENT_ROOT'].'/includes/teacher-local-video.php');
+			?>
+		</div>
+
 		<div id="regalia-main">
 			<span>Регалии</span>
 			<div class="city" style="width: 294px;">
@@ -75,34 +101,6 @@
 			</div>
 			<div class="clean"></div>
 		</div>
-
-		<div class="teacher-photo">
-			<img class="teacher-portrait" src="/images/teacher-thumbnails/andrei-yakovlev.webp" alt="Андрей Яковлев" width="800" height="800">
-			Андрей Яковлев — 22 года. Основной преподаватель центра.<br><br>
-			Танцами начал заниматься с&nbsp;7&nbsp;лет. Брейк-дансом занимается 8&nbsp;лет. Преподавательский стаж-5&nbsp;лет. Представляет команду No&nbsp;Sense Crew/No Sense Rockers/Just Funk и&nbsp;сообщество &laquo;Танцуй, не&nbsp;комплексуй&raquo;.<br><br>
-
-			В&nbsp;работе с&nbsp;учениками использует разные методы и&nbsp;подходы к&nbsp;обучению: физическая подготовка, растяжка, изучение базы, использование элементов из&nbsp;акробатики, индивидуальный и&nbsp;нестандартный подход ,в ходе которого выявляются сильные стороны ученика.<br><br> 
-			Одна из&nbsp;целей Андрея- воспитать в&nbsp;каждом ученике достойные и&nbsp;благородные качества.<br><br><br><br>
-
-			<b>Видео с Андреем</b><br><br>
-
-			<div class="teacher-video">
-				<iframe width="440" height="247" src="https://www.youtube.com/embed/35w0d7x2Mys?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			</div>
-		</div>
-
-		<div class="teacher-name">
-			<br><br><br><br>
-			<h1 class="inline-page-heading"><span>Андрей</span><br><span>Яковлев</span></h1><br>
-			<br>Основной преподаватель<br>
-<!-- 			<div class="motto">
-				<span>Девиз:</span><br>
-				<span>Танцуй, не комплексуй!</span>
-			</div> -->
-		</div>
-
-		<div class="clean"></div>
-
 	</div>
 
 </div>

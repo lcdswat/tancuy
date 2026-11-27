@@ -10,6 +10,34 @@
 <div class="wrapper">
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/header.html'); ?>
 	<div class="grid teacher-profile">
+		<div class="teacher-name">
+			<br><br><br><br>
+			<h1 class="inline-page-heading"><span>Арсен</span><br><span>Ильясов</span></h1><br>
+			<br>Основной преподаватель центра<br>
+<!-- 			<div class="motto">
+				<span>Девиз:</span><br>
+				<span>Танцуй, не комплексуй!</span>
+			</div> -->
+		</div>
+
+		<div class="teacher-photo">
+			<img class="teacher-portrait" src="/images/teacher-portraits/arsen-ilyasov.webp" alt="Арсен Ильясов" width="800" height="1200">
+			<p>Танцует с 2007 года, начал танцевать брейк в 18 лет. Имеет успешный опыт преподавания — 16 лет.</p>
+			<p>Преподаёт как детям, так и взрослым. Проводит тренировки в младших группах (4–6 лет), в группах для детей 7–15 лет и в старшей группе.</p>
+			<p>Является учеником команды No Sense Crew (Уфа-Оренбург). Представитель команды «Just Funk» и сообщества «Танцуй, не комплексуй».</p>
+			<p>Как и все преподаватели центра Арсен отдаётся преподаванию на 100 процентов. Воспитал и воспитывает чемпионов и фанатов Брейкинга, которые достойно представляют нашу Республику и Страну.</p>
+
+			<?php
+			foreach ([
+				['arsen-ilyasov', 'arsen-ilyasov-video', 'Видео с Арсеном'],
+				['arsen-ilyasov-extra-1', 'arsen-ilyasov-extra-video-1', 'Видео с Арсеном — 2'],
+				['arsen-ilyasov-extra-2', 'arsen-ilyasov-extra-video-2', 'Видео с Арсеном — 3'],
+			] as list($teacherVideoFile, $teacherVideoId, $teacherVideoTitle)) {
+				include($_SERVER['DOCUMENT_ROOT'].'/includes/teacher-local-video.php');
+			}
+			?>
+		</div>
+
 		<div id="regalia-main">
 			<span>Участие и Победы</span>
 			<div class="teacher-cities">
@@ -56,33 +84,7 @@
 					ТАНЦУЙ В&nbsp;БИТ&nbsp;2
 				</div>
 			</div>
-			Видео с Арсеном<br><br>
-			<div class="teacher-video">
-				<iframe width="294" height="165" src="https://www.youtube.com/embed/cMuHmHg_H4Y?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-			</div>
-			<div class="clean"></div>			
 		</div>
-
-		<div class="teacher-photo">
-			<img class="teacher-portrait" src="/images/teacher-portraits/arsen-ilyasov.webp" alt="Арсен Ильясов" width="800" height="1200">
-			<p>Танцует с 2007 года, начал танцевать брейк в 18 лет. Имеет успешный опыт преподавания — 16 лет.</p>
-			<p>Преподаёт как детям, так и взрослым. Проводит тренировки в младших группах (4–6 лет), в группах для детей 7–15 лет и в старшей группе.</p>
-			<p>Является учеником команды No Sense Crew (Уфа-Оренбург). Представитель команды «Just Funk» и сообщества «Танцуй, не комплексуй».</p>
-			<p>Как и все преподаватели центра Арсен отдаётся преподаванию на 100 процентов. Воспитал и воспитывает чемпионов и фанатов Брейкинга, которые достойно представляют нашу Республику и Страну.</p>
-		</div>
-
-		<div class="teacher-name">
-			<br><br><br><br>
-			<h1 class="inline-page-heading"><span>Арсен</span><br><span>Ильясов</span></h1><br>
-			<br>Основной преподаватель центра<br>
-<!-- 			<div class="motto">
-				<span>Девиз:</span><br>
-				<span>Танцуй, не комплексуй!</span>
-			</div> -->
-		</div>
-
-		<div class="clean"></div>
-
 	</div>
 
 </div>

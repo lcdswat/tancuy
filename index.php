@@ -4,6 +4,7 @@
 		<?php include($_SERVER['DOCUMENT_ROOT'].'/includes/head.html'); ?>
 		<link rel="stylesheet" type="text/css" href="/site-files/slider.css">
 		<link rel="stylesheet" href="/site-files/photo-gallery.css">
+		<script defer src="/site-files/local-video.js"></script>
 		<script defer src="/site-files/photo-gallery.js"></script>
 		<title>О центре</title>
 		<meta name="description" content="Центр брейк-данса «Танцуй, не комплексуй» в Уфе.">
@@ -132,21 +133,29 @@ foreach ([2 => [3, 5], 7 => [1, 2]] as $i => list($firstLineWords, $secondLineWo
 	<section>
 		<h2><span class="intro-header-one">Отзывы</span></h2>
 		<div class="home-reviews">
-			<a data-fancybox class="review" href="https://www.youtube.com/watch?v=6KRYBF7Yuf8">
-				<img src="/images/review-aynaz-t.jpg">
-				<span>Айназ Мухамедьяров, <i>6&nbsp;лет</i></span>
+			<a data-fancybox data-local-video class="review" href="/media/videos/review-aynaz.mp4">
+				<span class="video-preview">
+					<img src="/media/videos/review-aynaz.webp" width="770" height="480" alt="">
+				</span>
+				<span class="review-caption">Айназ Мухамедьяров, <i>6&nbsp;лет</i></span>
 			</a>
-			<a data-fancybox class="review" href="https://www.youtube.com/watch?v=XpEpHL802iw">
-				<img src="/images/review-amin-t.jpg">
-				<span>Амин Аминов, <i>5&nbsp;лет</i></span>
+			<a data-fancybox data-local-video class="review" href="/media/videos/review-amin.mp4">
+				<span class="video-preview">
+					<img src="/media/videos/review-amin.webp" width="770" height="480" alt="">
+				</span>
+				<span class="review-caption">Амин Аминов, <i>5&nbsp;лет</i></span>
 			</a>
-			<a data-fancybox class="review" href="https://www.youtube.com/watch?v=AxTGb6hR7JQ">
-				<img src="/images/review-safiullin-t.jpg">
-				<span>Сафиуллин Роберт, <i>10&nbsp;лет</i></span>
+			<a data-fancybox data-local-video class="review" href="/media/videos/review-safiullin.mp4">
+				<span class="video-preview">
+					<img src="/media/videos/review-safiullin.webp" width="770" height="480" alt="">
+				</span>
+				<span class="review-caption">Сафиуллин Роберт, <i>10&nbsp;лет</i></span>
 			</a>
-			<a data-fancybox class="review" href="https://www.youtube.com/watch?v=8tQQ9Kcia4g">
-				<img src="/images/review-syrchin-t.jpg">
-				<span>Сырчин Илья, <i>9&nbsp;лет</i></span>
+			<a data-fancybox data-local-video class="review" href="/media/videos/review-syrchin.mp4">
+				<span class="video-preview">
+					<img src="/media/videos/review-syrchin.webp" width="770" height="480" alt="">
+				</span>
+				<span class="review-caption">Сырчин Илья, <i>9&nbsp;лет</i></span>
 			</a>
 		</div>
 	</section>
@@ -179,11 +188,6 @@ foreach ([2 => [3, 5], 7 => [1, 2]] as $i => list($firstLineWords, $secondLineWo
 
 <!-- Футер -->
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/footer.html'); ?>
-
-<script type="text/javascript">
-	$("[data-fancybox]").fancybox({
-	});
-</script>
 
 </body>
 </html>

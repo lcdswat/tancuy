@@ -10,6 +10,33 @@
 <div class="wrapper">
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/header.html'); ?>
 	<div class="grid teacher-profile">
+		<div class="teacher-name" id="markel">
+			<br><br><br><br>
+			<h1 class="inline-page-heading"><span>Александр</span><br><span>Маркелов</span></h1><br>
+			<br>Основной преподаватель центра<br>
+<!-- 			<div class="motto">
+				<span>Девиз:</span><br>
+				<span>Танцуй, не комплексуй!</span>
+			</div> -->
+		</div>
+
+		<div class="teacher-photo">
+			<img class="teacher-portrait" src="/images/teacher-portraits/aleks-markelov.webp" alt="Александр Маркелов" width="800" height="1200">
+			<p>Брейк-дансом начал заниматься с 15 лет, преподавательский стаж 18 лет.</p>
+			<p>Представляет команду «Новатор» и сообщество «Танцуй, не комплексуй».</p>
+			<p>Важным считает найти связь с учеником, которому передает знания, заинтересовать и показать максимально развернуто всю культуру брейк-данса в целом, развить в каждом воспитаннике свой индивидуальный почерк, ну и конечно же физическая подготовка и дисциплина, благодаря этому пути можно достичь хороших результатов.</p>
+			<p>Соорганизатор Всероссийского танцевального фестиваля «Mega Dance Fest» (фестиваль организуется при поддержке ТЦ Мега). Соорганизатор регионального танцевального чемпионата «Hip-Hop Connect».</p>
+
+			<?php
+			foreach ([
+				['aleks-markelov-youtube', 'markel-video', 'Видео с Александром'],
+				['aleks-markelov', 'markel-extra-video', 'Ещё одно видео с Александром'],
+			] as list($teacherVideoFile, $teacherVideoId, $teacherVideoTitle)) {
+				include($_SERVER['DOCUMENT_ROOT'].'/includes/teacher-local-video.php');
+			}
+			?>
+		</div>
+
 		<div id="regalia-main">
 			<span>Участие и Победы</span>
 			<div class="city">
@@ -60,34 +87,7 @@
 				Старая школа 2017
 			</div>
 			<div class="clean"></div>
-
-			Видео с Александром<br><br>
-			<div class="teacher-video">
-				<iframe width="294" height="165" src="https://www.youtube.com/embed/grv9OL0eSl0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-			</div>
-			<div class="clean"></div>			
 		</div>
-
-		<div class="teacher-photo">
-			<img class="teacher-portrait" src="/images/teacher-portraits/aleks-markelov.webp" alt="Александр Маркелов" width="800" height="1200">
-			<p>Брейк-дансом начал заниматься с 15 лет, преподавательский стаж 18 лет.</p>
-			<p>Представляет команду «Новатор» и сообщество «Танцуй, не комплексуй».</p>
-			<p>Важным считает найти связь с учеником, которому передает знания, заинтересовать и показать максимально развернуто всю культуру брейк-данса в целом, развить в каждом воспитаннике свой индивидуальный почерк, ну и конечно же физическая подготовка и дисциплина, благодаря этому пути можно достичь хороших результатов.</p>
-			<p>Соорганизатор Всероссийского танцевального фестиваля «Mega Dance Fest» (фестиваль организуется при поддержке ТЦ Мега). Соорганизатор регионального танцевального чемпионата «Hip-Hop Connect».</p>
-		</div>
-
-		<div class="teacher-name" id="markel">
-			<br><br><br><br>
-			<h1 class="inline-page-heading"><span>Александр</span><br><span>Маркелов</span></h1><br>
-			<br>Основной преподаватель центра<br>
-<!-- 			<div class="motto">
-				<span>Девиз:</span><br>
-				<span>Танцуй, не комплексуй!</span>
-			</div> -->
-		</div>
-
-		<div class="clean"></div>
-
 	</div>
 
 </div>

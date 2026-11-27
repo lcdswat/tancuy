@@ -10,6 +10,42 @@
 <div class="wrapper">
 <?php include($_SERVER['DOCUMENT_ROOT'].'/includes/header.html'); ?>
 	<div class="grid teacher-profile">
+		<div class="teacher-name" id="markel">
+			<br><br><br><br>
+			<h1 class="inline-page-heading"><span>Арсен</span><br><span>Иванов	</span></h1><br>
+			<br>Основной преподаватель<br>
+<!-- 			<div class="motto">
+				<span>Девиз:</span><br>
+				<span>Танцуй, не комплексуй!</span>
+			</div> -->
+		</div>
+
+		<div class="teacher-photo">
+			<img class="teacher-portrait" src="/images/teacher-thumbnails/arsen-ivanov.webp" alt="Арсен Иванов" width="800" height="800">
+
+			Арсен Иванов, он же Bboy «News», — преподаватель центра.<br>
+			Танцует с 2012 года. Начал преподавательскую деятельность в 2014 году. За всё время своей танцевальной жизни успел посетить десятки фестивалей в России, а также участвовал в международных чемпионатах в Нидерландах, Словакии и Чехии.<br><br>
+
+			Первым человеком, вдохновившим Арсена, стал Bboy «Каспер» из Баку. Впоследствии преподавателем и другом ему стал Арсен Ильясов, он же Bboy «Nasty Trick».<br><br>
+
+			Сам «News» уверен, что благодаря брейку торжествуют позитивный взгляд на жизнь и отличное настроение, а тело и дух всегда держатся в отличной форме. Культура танца, по его мнению, объединяет людей, дарит новые знакомства и друзей, близких по духу!<br><br>
+
+			«News» вдохновляется своими друзьями и товарищами : Арсеном (тренером), Егором «Ked», Armant, Артуром «Клещом» и другими. На данный момент Арсену Bboy «News» нравятся три танцора: Ked из Новатора, Dog (Op) и Дэйв из Fyxo.<br><br>
+
+			Свой танец Арсен характеризует как — Action Film! :)<br><br>
+
+			Арсен Эдуардович ждёт всех ребят на своих занятиях. Он работает с детьми от 4 до 6 лет и ребятами от 7 до 13 лет.<br><br>
+
+			*Аction Film — танцевальная погоня и блокбастер на голове)
+
+			<?php
+			$teacherVideoFile = 'arsen-ivanov';
+			$teacherVideoId = 'arsen-ivanov-video';
+			$teacherVideoTitle = 'Видео с Арсеном';
+			include($_SERVER['DOCUMENT_ROOT'].'/includes/teacher-local-video.php');
+			?>
+		</div>
+
 		<div id="regalia-main">
 			<span>Регалии</span>
 			<div class="city" style="width: 294px;">
@@ -42,45 +78,7 @@
 			</div>
 
 			<div class="clean"></div>
-
-			Видео с Александром<br><br>
-			<div class="teacher-video">
-				<iframe width="294" height="165" src="https://www.youtube.com/embed/TRkjPOBD-v8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</div>
-			<div class="clean"></div>			
 		</div>
-
-		<div class="teacher-photo">
-			<img class="teacher-portrait" src="/images/teacher-thumbnails/arsen-ivanov.webp" alt="Арсен Иванов" width="800" height="800">
-
-			Арсен Иванов, он же Bboy «News», — преподаватель центра.<br>
-			Танцует с 2012 года. Начал преподавательскую деятельность в 2014 году. За всё время своей танцевальной жизни успел посетить десятки фестивалей в России, а также участвовал в международных чемпионатах в Нидерландах, Словакии и Чехии.<br><br>
-
-			Первым человеком, вдохновившим Арсена, стал Bboy «Каспер» из Баку. Впоследствии преподавателем и другом ему стал Арсен Ильясов, он же Bboy «Nasty Trick».<br><br>
-
-			Сам «News» уверен, что благодаря брейку торжествуют позитивный взгляд на жизнь и отличное настроение, а тело и дух всегда держатся в отличной форме. Культура танца, по его мнению, объединяет людей, дарит новые знакомства и друзей, близких по духу!<br><br>
-
-			«News» вдохновляется своими друзьями и товарищами : Арсеном (тренером), Егором «Ked», Armant, Артуром «Клещом» и другими. На данный момент Арсену Bboy «News» нравятся три танцора: Ked из Новатора, Dog (Op) и Дэйв из Fyxo.<br><br>
-
-			Свой танец Арсен характеризует как — Action Film! :)<br><br>
-
-			Арсен Эдуардович ждёт всех ребят на своих занятиях. Он работает с детьми от 4 до 6 лет и ребятами от 7 до 13 лет.<br><br>
-
-			*Аction Film — танцевальная погоня и блокбастер на голове)
-		</div>
-
-		<div class="teacher-name" id="markel">
-			<br><br><br><br>
-			<h1 class="inline-page-heading"><span>Арсен</span><br><span>Иванов	</span></h1><br>
-			<br>Основной преподаватель<br>
-<!-- 			<div class="motto">
-				<span>Девиз:</span><br>
-				<span>Танцуй, не комплексуй!</span>
-			</div> -->
-		</div>
-
-		<div class="clean"></div>
-
 	</div>
 
 </div>
